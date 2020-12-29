@@ -1,0 +1,4481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Emperor and the Kite</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <!--<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">-->
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--FONT OSWALD-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="styles.css">
+
+
+
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Android -->
+    <meta name="theme-color" content="#3498db">
+
+    <!-- IOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <link rel="apple-touch-icon" href="img/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/icons/icon-152x152.png">
+
+    <!-- iPhone X (1125px x 2436px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="img/icons-ios/apple-launch-1125x2436.png">
+    <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-750x1334.png">
+    <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="img/icons-ios/apple-launch-1242x2208.png">
+    <!-- iPhone 5 (640px x 1136px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-640x1136.png">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="apple-mobile-web-app-title" content="Twittor!">
+
+</head>
+<body>
+
+
+
+        <!-- Titulo -->
+        <span class="first"> 
+           <!-- <span id="salir-btn" class="fa fa-sign-out-alt out oculto animated fadeIn"></span>
+            <span id="titulo">
+                <i class="fa fa-user"></i>
+                Seleccione Personaje
+            </span>
+            <span id="nuevo-btn" class="fa fa-pen-square new oculto animated fadeIn fast"></span>-->
+        </span>
+        <!-- Fin Titulo -->
+
+
+        <div class = "container">
+           <nav class = "nav-main">
+                <img src="img/brand.png" alt="Rubik English Logo" class="nav-brand">
+                <ul class="nav-menu show">
+                    <li>MÉXICO BILING(ü)E</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
+            <!--SHOWCASE-->
+            <!--<header class="showcase">
+                <div class="content">
+                <h2>¿Quieres aprender Inglés rápido y de manera eficiente?</h2>
+                <p>En Rubik English te enseñaremos las claves del Inglés en tan sólo tres meses, por lo que nunca necesitarás volver a tomar tediosas clases de Inglés. 
+                </p>
+                </div>
+            </header>-->
+            <!--NEWS CARDS-->
+            <div class="news-cards">
+                <div>
+                    <center>
+                        <h3>"The Emperor and the Kite"</h3>
+                        <h3>"El Emperador y la Cometa"</h3>
+                        <audio id="audioMusic">
+                            <source src="Instrucciones.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="button button2"  onclick="bell()" color: white; >Instrucciones</button>
+                        <br/>
+                        <br/>
+                    </center>
+    
+                    <style>
+                        .button {
+                          border: none;
+                          color: /*white*/ black;
+                          padding: 2px 5px;
+                          text-align: center;
+                          text-decoration: none;
+                          display: inline-block;
+                          font-size: 14px;
+                          margin: 1px 1px;
+                          cursor: pointer;
+                        }
+                        
+                        .button1 {background-color: /*#4CAF50*/#EBF5FB;} /* Green */
+                        .button2 {background-color: #008CBA; color: white;} /* Blue */
+                        </style>
+                        <!--</head>
+                        <body>
+                        
+                        <h1>The button element - Styled with CSS</h1>
+                        <p>Change the background color of a button with the background-color property:</p>-->
+                        
+                        <!--<button class="button button1">Green</button>
+                        <button class="button button2">Blue</button>-->
+    
+    
+    
+                    <img src="img/news1.jpg" alt="News1">
+                    <br/>
+                        <br/>
+                    <script>
+                        var audio = document.getElementById("audioMusic");
+                        function bell( ){
+                            audio.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        
+                        <audio id="audioMusici">
+                        <source src="one.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioi = document.getElementById("audioMusici");
+                        function belli( ){
+                            audioi.play();
+                        }
+                    </script>
+                    
+                    
+                    <center>
+                        <audio id="audioMusicii">
+                        <source src="in.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioii = document.getElementById("audioMusicii");
+                        function bellii( ){
+                            audioii.play();
+                        }
+                    
+                    </script>
+                    
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusiciii">
+                        <source src="ancient.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioiii = document.getElementById("audioMusiciii");
+                        function belliii( ){
+                            audioiii.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusiciv">
+                        <source src="China.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioiv = document.getElementById("audioMusiciv");
+                        function belliv( ){
+                            audioiv.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusicv">
+                        <source src="there.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audiov = document.getElementById("audioMusicv");
+                        function bellv( ){
+                            audiov.play();
+                        }
+                    </script>
+                    <center>
+                        <audio id="audioMusicvi">
+                        <source src="lived.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audiovi = document.getElementById("audioMusicvi");
+                        function bellvi( ){
+                            audiovi.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusicvii">
+                        <source src="a.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audiovii = document.getElementById("audioMusicvii");
+                        function bellvii( ){
+                            audiovii.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusicviii">
+                        <source src="princess.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioviii = document.getElementById("audioMusicviii");
+                        function bellviii( ){
+                            audioviii.play();
+                        }
+                    </script>
+                    <center>
+                        <audio id="audioMusicix">
+                        <source src="who.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioix = document.getElementById("audioMusicix");
+                        function bellix( ){
+                            audioix.play();
+                        }
+                    </script>
+                    <center>
+                        <audio id="audioMusicx">
+                        <source src="was.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audiox = document.getElementById("audioMusicx");
+                        function bellx( ){
+                            audiox.play();
+                        }
+                    </script>
+                    <center>
+                        <audio id="audioMusicxi">
+                        <source src="the.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioxi = document.getElementById("audioMusicxi");
+                        function bellxi( ){
+                            audioxi.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusicxii">
+                        <source src="fourth.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioxii = document.getElementById("audioMusicxii");
+                        function bellxii( ){
+                            audioxii.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusicxiii">
+                        <source src="daughter.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioxiii = document.getElementById("audioMusicxiii");
+                        function bellxiii( ){
+                            audioxiii.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusicxiv">
+                        <source src="ofthe.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioxiv = document.getElementById("audioMusicxiv");
+                        function bellxiv( ){
+                            audioxiv.play();
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusicxv">
+                        <source src="emperor.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioxv = document.getElementById("audioMusicxv");
+                        function bellxv( ){
+                            audioxv.play();
+                        }
+                    </script>
+                    
+                    
+                    
+                    <!--1 PARRAFO 1-->
+                    
+                    <p><b>1. Once in ancient China there lived a princess who was the fourth daughter of the emperor. </b></p>  
+                    
+                    <!--1 Párrafo 
+                    Once in ancient China there lived a princess who was the fourth daughter of the emperor. 
+                    Una vez en la antigua China allí vivió una princesa que era la cuarta hija del emperador.-->
+                    <script>
+                    function myFunction1()
+                    {
+                        document.getElementById("output1").innerHTML= ("Una vez");
+                        primera.style.display = "none";
+                        var audioi = document.getElementById("audioMusici");
+                        audioi.play();
+                    }
+                    </script>
+                    
+                    <script>
+                        function myFunction2()
+                        {
+                            document.getElementById("output2").innerHTML= ("en la");
+                            segunda.style.display = "none";
+                            var audioii = document.getElementById("audioMusicii");
+                            audioii.play();
+                        }
+                    </script>
+                    
+                    <script>
+                        function myFunction3()
+                        {
+                            document.getElementById("output3").innerHTML= ("antigua");
+                            tercera.style.display = "none";
+                            var audioiii = document.getElementById("audioMusiciii");
+                            audioiii.play();
+                        }
+                    </script>
+                    
+                    <script>
+                        function myFunction4()
+                        {
+                            document.getElementById("output4").innerHTML= ("China");
+                            cuarta.style.display = "none";
+                            var audioiv = document.getElementById("audioMusiciv");
+                            audioiv.play();
+                        }
+                        </script>
+                        
+                        <script>
+                            function myFunction5()
+                            {
+                                document.getElementById("output5").innerHTML= ("allí");
+                                quinta.style.display = "none";
+                                var audiov = document.getElementById("audioMusicv");
+                                audiov.play();
+                            }
+                        </script>
+                        
+                    
+                        <script>
+                            function myFunction6()
+                            {
+                                document.getElementById("output6").innerHTML= ("vivió ");
+                                sexta.style.display = "none";
+                                var audiovi = document.getElementById("audioMusicvi");
+                                audiovi.play();
+                            }
+                            </script>
+                            
+                            <script>
+                                function myFunction7()
+                                {
+                                    document.getElementById("output7").innerHTML= ("una");
+                                    septima.style.display = "none";
+                                    var audiovii = document.getElementById("audioMusicvii");
+                                    audiovii.play();
+                                }
+                            </script>
+                    
+                            <script>
+                                function myFunction8()
+                                {
+                                    document.getElementById("output8").innerHTML= ("princesa");
+                                    octava.style.display = "none";
+                                    var audioviii = document.getElementById("audioMusicviii");
+                                    audioviii.play();
+                                }
+                            </script>
+                            
+                            <script>
+                                function myFunction9()
+                                {
+                                    document.getElementById("output9").innerHTML= ("quien");
+                                    novena.style.display = "none";
+                                    var audioix = document.getElementById("audioMusicix");
+                                    audioix.play();
+                                }
+                            </script>
+                            
+                            <script>
+                                function myFunction10()
+                                {
+                                    document.getElementById("output10").innerHTML= ("era");
+                                    decima.style.display = "none";
+                                    var audiox = document.getElementById("audioMusicx");
+                                    audiox.play();
+                                }
+                                </script>
+                                
+                                <script>
+                                    function myFunction11()
+                                    {
+                                        document.getElementById("output11").innerHTML= ("la");
+                                        xi.style.display = "none";
+                                        var audioxi = document.getElementById("audioMusicxi");
+                                        audioxi.play();
+                                    }
+                                </script>
+                                
+                            
+                                <script>
+                                    function myFunction12()
+                                    {
+                                        document.getElementById("output12").innerHTML= ("cuarta");
+                                        xii.style.display = "none";
+                                        var audioxii = document.getElementById("audioMusicxii");
+                                        audioxii.play();
+                                    }
+                                    </script>
+                                    
+                                    <script>
+                                        function myFunction13()
+                                        {
+                                        document.getElementById("output13").innerHTML= ("hija");
+                                        xiii.style.display = "none";
+                                        var audioxiii = document.getElementById("audioMusicxiii");
+                                        audioxiii.play();
+                                        }
+                                    </script>
+                            
+                            <script>
+                                function myFunction14()
+                                {
+                                    document.getElementById("output14").innerHTML= ("del");
+                                    xiv.style.display = "none";
+                                    var audioxiv = document.getElementById("audioMusicxiv");
+                                    audioxiv.play();
+                                }
+                            </script>
+                    
+                    
+                    
+                            <script>
+                                function myFunction15()
+                                {
+                                    document.getElementById("output15").innerHTML= ("emperador.  ");
+                                    xv.style.display = "none";
+                                    var audioxv = document.getElementById("audioMusicxv");
+                                    audioxv.play();
+                                }
+                            </script>
+                    
+                    <span>
+                    
+                    <a id="output1"></a>
+                    <a id="output2"></a>
+                    <a id="output3"></a>
+                    <a id="output4"></a>
+                    <a id="output5"></a>
+                    <a id="output6"></a>
+                    <a id="output7"></a>
+                    <a id="output8"></a>
+                    <a id="output9"></a>
+                    <a id="output10"></a>
+                    <a id="output11"></a>
+                    <a id="output12"></a>
+                    <a id="output13"></a>
+                    <a id="output14"></a>
+                    <a id="output15"></a>
+                    
+                    </span>
+                    
+                    <!--1 Párrafo 
+                    Once in ancient China there lived a princess who was the fourth daughter of the emperor. 
+                    Una vez en la antigua China allí vivió una princesa que era la cuarta hija del emperador.-->
+                    
+                    <br/>
+                    <br/>
+                    
+                    <button id= primera onclick="myFunction1()" class="button button1" >  Once   </button>
+                    <button id= segunda onclick="myFunction2()" class="button button1" > in  </button>
+                    <button id= tercera onclick="myFunction3()" class="button button1" > ancient  </button>
+                    <button id= cuarta onclick="myFunction4()" class="button button1" > China    </button>
+                    <button id= quinta onclick="myFunction5()" class="button button1" > there  </button>
+                    <button id= sexta onclick="myFunction6()" class="button button1" > lived   </button>
+                    <button id= septima onclick="myFunction7()" class="button button1"> a </button>
+                    <button id= octava onclick="myFunction8()" class="button button1" >  princess  </button>
+                    <button id= novena onclick="myFunction9()" class="button button1" > who   </button>
+                    <button id= decima onclick="myFunction10()" class="button button1" > was </button>
+                    <button id= xi onclick="myFunction11()" class="button button1" > the   </button>
+                    <button id= xii onclick="myFunction12()" class="button button1" > fourth  </button>
+                    <button id= xiii onclick="myFunction13()" class="button button1" >daughter   </button>
+                    <button id= xiv onclick="myFunction14()" class="button button1" > of the  </button>
+                    <button id= xv onclick="myFunction15()" class="button button1" >  emperor.  </button>
+                    
+                    <!--1 TERMINA PARRAFO 1-->  
+                    <!--2 INICIA PARRAFO 2-->
+                    
+                    <p><b>2. She was very tiny. In fact she was so tiny her name was Djeow Soew, which means “the smallest one”. </b></p>
+                    
+                    <!--2 Párrafo She was very tiny. In fact she was so tiny her name was Djeow Soew, which means “the smallest one.” 
+                    Ella era muy pequeña. De hecho, ella era tan pequeña que su nombre era Djeow Soew, que significa "la más pequeña".
+                    -->
+                    
+    
+    
+    
+                   
+                   
+                   <!--2 Párrafo She was very tiny. In fact she was so tiny her name was Djeow Soew, which means “the smallest one.” 
+                    Ella era muy pequeña. De hecho, ella era tan pequeña que su nombre era Djeow Soew, que significa "la más pequeña".
+                    -->
+    
+                    <center>
+                        <audio id="audioMusicxvi">
+                        <source src="she.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                    
+                    <script>
+                        var audioxvi = document.getElementById("audioMusicxvi");
+                        function bellxvi( ){
+                            audioxvi.play();
+                        }
+                    </script>
+    
+                    <script>
+                        function myFunction16()
+                        {
+                            document.getElementById("output16").innerHTML= ("Ella");
+                            xvi.style.display = "none";
+                            var audioxvi = document.getElementById("audioMusicxvi");
+                            audioxvi.play();
+    
+                        }
+                    </script>
+    
+                    <center>
+                    <audio id="audioMusicxvii">
+                    <source src="was.mp3" type="audio/mpeg">
+                    </audio>
+                    </center>
+    
+                    <script>
+                    var audioxvii = document.getElementById("audioMusicxvii");
+                    function bellxvii( ){
+                    audioxvii.play();
+                    }
+                    </script>
+    
+                  
+                    <script>
+                        function myFunction17()
+                        {
+                            document.getElementById("output17").innerHTML= (" era ");
+                            xvii.style.display = "none";
+                            var audioxvii = document.getElementById("audioMusicxvii");
+                            audioxvii.play();
+    
+                        }
+                    </script>
+                    
+                    <center>
+                        <audio id="audioMusicxviii">
+                        <source src="very.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+        
+                    <script>
+                        var audioxviii = document.getElementById("audioMusicxviii");
+                        function bellxviii( ){
+                        audioxviii.play();
+                        }
+                    </script>
+    
+                    <script>
+                        function myFunction18()
+                        {
+                            document.getElementById("output18").innerHTML= (" muy  ");
+                            xviii.style.display = "none";
+                            var audioxviii = document.getElementById("audioMusicxviii");
+                            audioxviii.play();
+                        }
+                    </script>
+    
+                    <center>
+                        <audio id="audioMusicxix">
+                        <source src="tiny.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+        
+                    <script>
+                        var audioxix = document.getElementById("audioMusicxix");
+                        function bellxix( ){
+                        audioxix.play();
+    
+                        }
+                    </script>
+    
+                        <script>
+                            function myFunction19()
+                            {
+                                document.getElementById("output19").innerHTML= ("pequeña.");
+                                xix.style.display = "none";
+                                var audioxix = document.getElementById("audioMusicxix");
+                                audioxix.play();
+                            }
+                        </script>
+                        
+                    
+                        <center>
+                            <audio id="audioMusicxx">
+                            <source src="infact.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+            
+                        <script>
+                            var audioxx = document.getElementById("audioMusicxx");
+                            function bellxx( ){
+                            audioxx.play();
+        
+                            }
+                        </script>
+    
+                        <script>
+                            function myFunction20()
+                            {
+                                document.getElementById("output20").innerHTML= ("De hecho,");
+                                xx.style.display = "none";
+                                var audioxx = document.getElementById("audioMusicxx");
+                                audioxx.play();
+    
+    
+                            }
+                            </script>
+                            
+                            <center>
+                                <audio id="audioMusicxxi">
+                                <source src="she.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                
+                            <script>
+                                var audioxxi = document.getElementById("audioMusicxxi");
+                                function bellxxi( ){
+                                audioxxi.play();
+            
+                                }
+                            </script>
+    
+    
+                            <script>
+                                function myFunction21()
+                                {
+                                    document.getElementById("output21").innerHTML= ("ella ");
+                                    xxi.style.display = "none";
+                                    var audioxxi = document.getElementById("audioMusicxxi");
+                                    audioxxi.play();
+                                }
+                            </script>
+                    
+                           
+                    <center>
+                        <audio id="audioMusicxxii">
+                        <source src="was.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+        
+                    <script>
+                        var audioxxii = document.getElementById("audioMusicxxii");
+                        function bellxxii( ){
+                        audioxxii.play();
+    
+                        }
+                    </script>
+    
+    
+                            <script>
+                                function myFunction22()
+                                {
+                                    document.getElementById("output22").innerHTML= ("era");
+                                    xxii.style.display = "none";
+                                    var audioxxii = document.getElementById("audioMusicxxii");
+                                    audioxxii.play();
+                                }
+                            </script>
+                           
+                           
+                           <center>
+                            <audio id="audioMusicxxiii">
+                            <source src="sotiny.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+            
+                        <script>
+                            var audioxxiii = document.getElementById("audioMusicxxiii");
+                            function bellxxiii( ){
+                            audioxxiii.play();
+        
+                            }
+                        </script>
+    
+                            <script>
+                                function myFunction23()
+                                {
+                                    document.getElementById("output23").innerHTML= ("tan pequeña que ");
+                                    xxiii.style.display = "none";
+                                    var audioxxiii = document.getElementById("audioMusicxxiii");
+                                    audioxxiii.play();
+                                }
+                            </script>
+                        
+    
+                        <center>
+                            <audio id="audioMusicxxiv">
+                            <source src="her.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+            
+                        <script>
+                            var audioxxiv = document.getElementById("audioMusicxxiv");
+                            function bellxxiv( ){
+                            audioxxiv.play();
+        
+                            }
+                        </script>
+    
+                                <script>
+                                    function myFunction24()
+                                    {
+                                        document.getElementById("output24").innerHTML= ("su ");
+                                        xxiv.style.display = "none";
+                                        var audioxxiv = document.getElementById("audioMusicxxiv");
+                                        audioxxiv.play();
+                                    }
+                                </script>
+                                
+                                <center>
+                                    <audio id="audioMusicxxv">
+                                    <source src="name.mp3" type="audio/mpeg">
+                                    </audio>
+                                    </center>
+                    
+                                <script>
+                                    var audioxxv = document.getElementById("audioMusicxxv");
+                                    function bellxxv( ){
+                                    audioxxv.play();
+                
+                                    }
+                                </script>
+    
+                                
+    
+                                <script>
+                                    function myFunction25()
+                                    {
+                                        document.getElementById("output25").innerHTML= ("nombre");
+                                        xxv.style.display = "none";
+                                        var audioxxv = document.getElementById("audioMusicxxv");
+                                        audioxxv.play();
+                                    }
+                                    </script>
+                                    
+    
+                                    <center>
+                                        <audio id="audioMusicxxvi">
+                                        <source src="was.mp3" type="audio/mpeg">
+                                        </audio>
+                                        </center>
+                        
+                                    <script>
+                                        var audioxxvi = document.getElementById("audioMusicxxvi");
+                                        function bellxxvi( ){
+                                        audioxxvi.play();
+                    
+                                        }
+                                    </script>
+    
+    
+                                    <script>
+                                        function myFunction26()
+                                        {
+                                            document.getElementById("output26").innerHTML= ("era");
+                                            xxvi.style.display = "none";
+                                            var audioxxvi = document.getElementById("audioMusicxxvi");
+                                            audioxxvi.play();
+    
+                                        }
+                                    </script>
+    
+    <center>
+        <audio id="audioMusicxxvii">
+        <source src="djeowsoew.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxxvii = document.getElementById("audioMusicxxvii");
+        function bellxxvii( ){
+        audioxxvii.play();
+    
+        }
+    </script>
+    
+    
+                            <script>
+                                function myFunction27()
+                                {
+                                    document.getElementById("output27").innerHTML= ("Djeow Soew,");
+                                    xxvii.style.display = "none";
+                                    var audioxxvii = document.getElementById("audioMusicxxvii");
+                                audioxxvii.play();
+                                }
+                            </script>
+    
+    <center>
+        <audio id="audioMusicxxviii">
+        <source src="which.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxxviii = document.getElementById("audioMusicxxviii");
+        function bellxxviii( ){
+        audioxxviii.play();
+    
+        }
+    </script>
+    
+    
+                    
+                    <script>
+                    function myFunction28()
+                    {
+                        document.getElementById("output28").innerHTML= ("que ");
+                        xxviii.style.display = "none";
+                        var audioxxviii = document.getElementById("audioMusicxxviii");
+                        audioxxviii.play();
+    
+                    }
+                    </script>
+    
+    <center>
+        <audio id="audioMusicxxix">
+        <source src="means.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxxix = document.getElementById("audioMusicxxix");
+        function bellxxix( ){
+        audioxxix.play();
+    
+        }
+    </script>
+    
+    
+    
+    
+                    <script>
+                        function myFunction29()
+                        {
+                            document.getElementById("output29").innerHTML= ("significa ");
+                            xxix.style.display = "none";
+                            var audioxxix = document.getElementById("audioMusicxxix");
+                                audioxxix.play();
+                        }
+                    </script>
+    
+    <center>
+        <audio id="audioMusicxxx">
+        <source src="thesmallestone.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxxx = document.getElementById("audioMusicxxx");
+        function bellxxx( ){
+        audioxxx.play();
+    
+        }
+    </script>
+    
+    
+                    <script>
+                        function myFunction30()
+                        {
+                            document.getElementById("output30").innerHTML= ("'la más pequeña'.");
+                            xxx.style.display = "none";
+                            var audioxxx = document.getElementById("audioMusicxxx");
+                                audioxxx.play();
+                        }
+                    </script>
+                    
+                    <span>
+                        <a id="output16"></a>
+                        <a id="output17"></a>
+                        <a id="output18"></a>
+                        <a id="output19"></a>
+                        <a id="output20"></a>
+                        <a id="output21"></a>
+                        <a id="output22"></a>
+                        <a id="output23"></a>
+                        <a id="output24"></a>
+                        <a id="output25"></a>
+                        <a id="output26"></a>
+                        <a id="output27"></a>
+                        <a id="output28"></a>
+                        <a id="output29"></a>
+                        <a id="output30"></a>
+                        
+                        </span>
+                    
+                    <!--2 Párrafo She was very tiny. In fact she was so tiny her name was Djeow Soew, which means “the smallest one.” 
+                    Ella era muy pequeña. De hecho, ella era tan pequeña que su nombre era Djeow Soew, que significa "la más pequeña".
+                    -->
+                    
+                        <br/>
+                        <br/>
+                    
+                    <button id= xvi onclick="myFunction16()" class="button button1"> She  </button>
+                    <button id= xvii onclick="myFunction17()" class="button button1" >  was  </button>
+                    <button id= xviii onclick="myFunction18()" class="button button1" > very   </button>
+                    <button id= xix onclick="myFunction19()" class="button button1" > tiny.  </button>
+                    <button id= xx onclick="myFunction20()" class="button button1" > In  fact </button>
+                    <button id= xxi onclick="myFunction21()" class="button button1" > she </button>
+                    <button id= xxii onclick="myFunction22()" class="button button1" >  was  </button>
+                    <button id= xxiii onclick="myFunction23()" class="button button1" >  so tiny  </button>
+                    <button id= xxiv onclick="myFunction24()" class="button button1" > her </button>
+                    <button id= xxv onclick="myFunction25()" class="button button1" >   name </button>
+                    <button id= xxvi onclick="myFunction26()" class="button button1" >  was </button>
+                    <button id= xxvii onclick="myFunction27()" class="button button1" > Djeow Soew,   </button>
+                    <button id= xxviii onclick="myFunction28()" class="button button1" >which </button>
+                    <button id= xxix onclick="myFunction29()" class="button button1" >   means   </button>
+                    <button id= xxx onclick="myFunction30()" class="button button1" > “the smallest one.”  </button>
+                    
+                    <!--2 TERMINA PARRAFO 2-->
+                    
+                    <!--3 INICIA PARRAFO 3-->
+                    
+                    <p><b>3. And, because she was so tiny, she was not taken into account much, when she was even taken into account."</b></p>
+                    
+                    <!--3 Párrafo 
+                        And, because she was so tiny, she was not taken into account much, when she was even taken into account.
+                        Y, por causa de que era tan pequeña, ella no era tomada en cuenta mucho, cuando ella siquiera era tomada en cuenta.-->
+       
+                        
+                        <center>
+                            <audio id="audioMusicxxxi">
+                            <source src="and.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audioxxxi = document.getElementById("audioMusicxxxi");
+                            function bellxxxi( ){
+                            audioxxxi.play();
+                        
+                            }
+                        </script>
+    
+                    <script>
+                        function myFunction31()
+                        {
+                            document.getElementById("output31").innerHTML= ("Y,");
+                            xxxi.style.display = "none";
+                            var audioxxxi = document.getElementById("audioMusicxxxi");
+                                audioxxxi.play();
+    
+                        }
+                        </script>
+                        
+    
+                        <center>
+                            <audio id="audioMusicxxxii">
+                            <source src="because.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audioxxxii = document.getElementById("audioMusicxxxii");
+                            function bellxxxii( ){
+                            audioxxxii.play();
+                        
+                            }
+                        </script>
+    
+    
+                        <script>
+                            function myFunction32()
+                            {
+                                document.getElementById("output32").innerHTML= ("por causa de que");
+                                xxxii.style.display = "none";
+                                var audioxxxii = document.getElementById("audioMusicxxxii");
+                                audioxxxii.play();
+                            }
+                        </script>
+                        
+                        
+    
+    
+                        <center>
+                            <audio id="audioMusicxxxiii">
+                            <source src="she.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audioxxxiii = document.getElementById("audioMusicxxxiii");
+                            function bellxxxiii( ){
+                            audioxxxiii.play();
+                        
+                            }
+                        </script>
+                        
+                        <script>
+                            function myFunction33()
+                            {
+                                document.getElementById("output33").innerHTML= ("ella");
+                                xxxiii.style.display = "none";
+                                var audioxxxiii = document.getElementById("audioMusicxxxiii");
+                                audioxxxiii.play();
+                            }
+                            </script>
+    
+    
+    
+    
+    
+                            <center>
+                                <audio id="audioMusicxxxiv">
+                                <source src="was.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audioxxxiv = document.getElementById("audioMusicxxxiv");
+                                function bellxxxiv( ){
+                                audioxxxiv.play();
+                            
+                                }
+                            </script>
+    
+                            <script>
+                                function myFunction34()
+                                {
+                                    document.getElementById("output34").innerHTML= ("era");
+                                    xxxiv.style.display = "none";
+                                    var audioxxxiv = document.getElementById("audioMusicxxxiv");
+                                audioxxxiv.play();
+                                }
+                            </script>
+    
+    
+                    <center>
+                        <audio id="audioMusicxxxv">
+                        <source src="so.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+                    
+                    <script>
+                        var audioxxxv = document.getElementById("audioMusicxxxv");
+                        function bellxxxv( ){
+                        audioxxxv.play();
+                    
+                        }
+                    </script>
+                            <script>
+                                function myFunction35()
+                                {
+                                    document.getElementById("output35").innerHTML= ("tan ");
+                                    xxxv.style.display = "none";
+                                    var audioxxxv = document.getElementById("audioMusicxxxv");
+                                audioxxxv.play();
+                            
+                                }
+                            </script>
+                            
+                       
+    
+    
+    
+                            <center>
+                                <audio id="audioMusicxxxvi">
+                                <source src="tiny.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audioxxxvi = document.getElementById("audioMusicxxxvi");
+                                function bellxxxvi( ){
+                                audioxxxvi.play();
+                            
+                                }
+                            </script>
+    
+                            <script>
+                                function myFunction36()
+                                {
+                                    document.getElementById("output36").innerHTML= ("pequeña,");
+                                    xxxvi.style.display = "none";
+                                    var audioxxxvi = document.getElementById("audioMusicxxxvi");
+                                audioxxxvi.play();
+                                }
+                            </script>
+                            
+    
+                            <center>
+                                <audio id="audioMusicxxxvii">
+                                <source src="she.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audioxxxvii = document.getElementById("audioMusicxxxvii");
+                                function bellxxxvii( ){
+                                audioxxxvii.play();
+                            
+                                }
+                            </script>
+    
+                            <script>
+                                function myFunction37()
+                                {
+                                    document.getElementById("output37").innerHTML= ("ella");
+                                    xxxvii.style.display = "none";
+                                    var audioxxxvii = document.getElementById("audioMusicxxxvii");
+                                audioxxxvii.play();
+                                }
+                                </script>
+                                
+    
+    
+    
+    
+                                <center>
+                                    <audio id="audioMusicxxxviii">
+                                    <source src="was.mp3" type="audio/mpeg">
+                                    </audio>
+                                    </center>
+                                
+                                <script>
+                                    var audioxxx = document.getElementById("audioMusicxxxviii");
+                                    function bellxxxviii( ){
+                                    audioxxxviii.play();
+                                
+                                    }
+                                </script>
+    
+                                <script>
+                                    function myFunction38()
+                                    {
+                                        document.getElementById("output38").innerHTML= ("era");
+                                        xxxviii.style.display = "none";
+                                        var audioxxxviii = document.getElementById("audioMusicxxxviii");
+                                audioxxxviii.play();
+                                    }
+                                </script>
+    
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusicxxxix">
+        <source src="not.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxxxix = document.getElementById("audioMusicxxxix");
+        function bellxxxix( ){
+        audioxxxix.play();
+    
+        }
+    </script>
+    
+    
+                            
+                                <script>
+                                    function myFunction39()
+                                    {
+                                        document.getElementById("output39").innerHTML= (" no ");
+                                        xxxix.style.display = "none";
+                                        var audioxxxix = document.getElementById("audioMusicxxxix");
+                                audioxxxix.play();
+    
+    
+                                    }
+                                    </script>
+    
+    
+    <center>
+        <audio id="audioMusicxl">
+        <source src="taken.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxl = document.getElementById("audioMusicxl");
+        function bellxl( ){
+        audioxl.play();
+    
+        }
+    </script>
+    
+    
+                                    <script>
+                                        function myFunction40()
+                                        {
+                                            document.getElementById("output40").innerHTML= ("tomada ");
+                                            xl.style.display = "none";
+                                            var audioxl = document.getElementById("audioMusicxl");
+                                audioxl.play();
+    
+    
+                                        }
+                                    </script>
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusicxli">
+        <source src="into.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxli = document.getElementById("audioMusicxli");
+        function bellxli( ){
+        audioxli.play();
+    
+        }
+    </script>
+    
+                            <script>
+                                function myFunction41()
+                                {
+                                    document.getElementById("output41").innerHTML= ("en");
+                                    xli.style.display = "none";
+                                    var audioxli = document.getElementById("audioMusicxli");
+                                audioxli.play();
+    
+                                }
+                            </script>
+    
+    
+    
+    
+    
+                    <center>
+                        <audio id="audioMusicxlii">
+                        <source src="account.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+                    
+                    <script>
+                        var audioxlii = document.getElementById("audioMusicxlii");
+                        function bellxlii( ){
+                        audioxlii.play();
+                    
+                        }
+                    </script>                
+                    <script>
+                            function myFunction42()
+                                {
+                                    document.getElementById("output42").innerHTML= ("cuenta");
+                                    xlii.style.display = "none";
+                                    var audioxlii = document.getElementById("audioMusicxlii");
+                                audioxlii.play();
+    
+                                }
+                    </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusicxliii">
+        <source src="much.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxliii = document.getElementById("audioMusicxliii");
+        function bellxliii( ){
+        audioxliii.play();
+    
+        }
+    </script>
+    
+                    <script>
+                        function myFunction43()
+                        {
+                            document.getElementById("output43").innerHTML= ("mucho,  ");
+                            xliii.style.display = "none";
+                            var audioxliii = document.getElementById("audioMusicxliii");
+                                audioxliii.play();
+                    
+                        }
+                    </script>
+    
+    
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusicxliv">
+        <source src="when.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxliv = document.getElementById("audioMusicxliv");
+        function bellxliv( ){
+        audioxliv.play();
+    
+        }
+    </script>
+    
+    
+    
+                    <script>
+                        function myFunction44()
+                        {
+                            document.getElementById("output44").innerHTML= ("cuando  ");
+                            xliv.style.display = "none";
+                            var audioxliv = document.getElementById("audioMusicxliv");
+                                audioxliv.play();
+    
+                        }
+                    </script>
+    
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusicxlv">
+        <source src="she.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxlv = document.getElementById("audioMusicxlv");
+        function bellxlv( ){
+        audioxlv.play();
+    
+        }
+    </script>
+    
+                    <script>
+                        function myFunction45()
+                        {
+                            document.getElementById("output45").innerHTML= ("ella  ");
+                            xlv.style.display = "none";
+                            var audioxlv = document.getElementById("audioMusicxlv");
+                                audioxlv.play();
+                        }
+                        </script>
+    
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusicxlvi">
+        <source src="was.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxlvi = document.getElementById("audioMusicxlvi");
+        function bellxlvi( ){
+        audioxlvi.play();
+    
+        }
+    </script>
+    
+                        <script>
+                            function myFunction46()
+                            {
+                                document.getElementById("output46").innerHTML= ("era ");
+                                xlvi.style.display = "none";
+                                var audioxlvi = document.getElementById("audioMusicxlvi");
+                                audioxlvi.play();
+    
+    
+                            }
+                        </script>
+    
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusicxlvii">
+        <source src="even.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxlvii = document.getElementById("audioMusicxlvii");
+        function bellxlvii( ){
+        audioxlvii.play();
+    
+        }
+    </script>
+    
+    
+                    
+                        <script>
+                            function myFunction47()
+                            {
+                                document.getElementById("output47").innerHTML= ("siquiera");
+                                xlvii.style.display = "none";
+                                var audioxlvii = document.getElementById("audioMusicxlvii");
+                                audioxlvii.play();
+                            }
+                            </script>
+    
+    
+     
+     <center>
+        <audio id="audioMusicxlviii">
+        <source src="taken.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxlviii = document.getElementById("audioMusicxlviii");
+        function bellxlviii( ){
+        audioxlviii.play();
+    
+        }
+    </script>
+                            <script>
+                                function myFunction48()
+                                {
+                                    document.getElementById("output48").innerHTML= (" tomada ");
+                                    xlviii.style.display = "none";
+                                    var audioxlviii = document.getElementById("audioMusicxlviii");
+                                audioxlviii.play();
+                                }
+                            </script>
+    
+    
+     
+    
+    
+                    <center>
+                        <audio id="audioMusicxlix">
+                        <source src="into.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+                    
+                    <script>
+                        var audioxlix = document.getElementById("audioMusicxlix");
+                        function bellxlix( ){
+                        audioxlix.play();
+                    
+                        }
+                    </script>               
+    
+    
+                            <script>
+                                function myFunction49()
+                                {
+                                    document.getElementById("output49").innerHTML= ("en ");
+                                    xlix.style.display = "none";
+                                    var audioxlix = document.getElementById("audioMusicxlix");
+                                audioxlix.play();
+                            
+                                }
+                            </script>
+    
+    
+    <center>
+        <audio id="audioMusicl">
+        <source src="account.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiol = document.getElementById("audioMusicl");
+        function belll( ){
+        audiol.play();
+    
+        }
+    </script>
+    
+    
+                            <script>
+                                function myFunction50()
+                                {
+                                    document.getElementById("output50").innerHTML= ("cuenta.");
+                                    l.style.display = "none";
+                                    var audiol = document.getElementById("audioMusicl");
+                                audiol.play();
+    
+                                }
+                            </script>
+                    
+                    
+                    
+                    <span>
+                    
+                        <a id="output31"></a>
+                        <a id="output32"></a>
+                        <a id="output33"></a>
+                        <a id="output34"></a>
+                        <a id="output35"></a>
+                        <a id="output36"></a>
+                        <a id="output37"></a>
+                        <a id="output39"></a>
+                        <a id="output38"></a>
+                        <a id="output40"></a>
+                        <a id="output41"></a>
+                        <a id="output42"></a>
+                        <a id="output43"></a>
+                        <a id="output44"></a>
+                        <a id="output45"></a>
+                        <a id="output46"></a>
+                        <a id="output47"></a>
+                        <a id="output48"></a>
+                        <a id="output49"></a>
+                        <a id="output50"></a>
+                        </span>
+                       
+                    <!--3 Párrafo 
+                        And, because she was so tiny, she was not taken into account much, when she was even taken into account.
+                        Y, por causa de que era tan pequeña, ella no era tomada en cuenta mucho, cuando ella siquiera era tomada en cuenta.-->
+                    
+                        <br/>
+                        <br/>
+                        <button id= xxxi onclick="myFunction31()" class="button button1" > And, </button>
+                        <button id= xxxii onclick="myFunction32()" class="button button1">  because   </button>
+                        <button id= xxxiii onclick="myFunction33()" class="button button1">she  </button>
+                        <button id= xxxiv onclick="myFunction34()" class="button button1"> was </button>
+                        <button id= xxxv onclick="myFunction35()" class="button button1">so </button>
+                        <button id= xxxvi onclick="myFunction36()" class="button button1"> tiny,   </button>
+                        <button id= xxxvii onclick="myFunction37()" class="button button1"> she   </button>
+                        <button id= xxxviii onclick="myFunction38()" class="button button1"> was   </button>
+                        <button id= xxxix onclick="myFunction39()" class="button button1"> not  </button>
+                        <button id= xl onclick="myFunction40()" class="button button1"> taken  </button>
+                        <button id= xli onclick="myFunction41()" class="button button1" > into   </button>
+                        <button id= xlii onclick="myFunction42()" class="button button1" > account  </button>
+                        <button id= xliii onclick="myFunction43()" class="button button1" > much, </button>
+                        <button id= xliv onclick="myFunction44()" class="button button1">   when  </button>
+                        <button id= xlv onclick="myFunction45()" class="button button1" > she   </button>
+                        <button id= xlvi onclick="myFunction46()" class="button button1" >was  </button>
+                        <button id= xlvii onclick="myFunction47()" class="button button1" > even    </button>
+                        <button id= xlviii onclick="myFunction48()" class="button button1" > taken </button>
+                        <button id= xlix onclick="myFunction49()" class="button button1" > into  </button>
+                        <button id= l onclick="myFunction50()" class="button button1" > account. </button>
+                    
+                    
+                    <!--3 TERMINA PARRAFO 3-->
+                    
+                    <!--4 INCIA PARRAFO 4-->
+                    
+                        <p><b>4. Her brothers, who were all older and bigger and stronger than she, were taken into account all the time.</b></p>
+                    
+                    <!--4 Párrafo 
+                       Her brothers, who were all older and bigger and stronger than she, were taken into account all the time.
+                     Sus hermanos, quienes eran todos mayores y más grandes y más fuertes que ella, eran tomados en cuenta todo el tiempo.
+                    -->
+                    
+    
+                    <center>
+                        <audio id="audioMusicli">
+                        <source src="her.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+                    
+                    <script>
+                        var audioli = document.getElementById("audioMusicli");
+                        function bellli( ){
+                        audioli.play();
+                    
+                        }
+                    </script>
+    
+                        <script>
+                            function myFunction51()
+                            {
+                                document.getElementById("output51").innerHTML= ("Sus");
+                                li.style.display = "none";
+                                var audioli = document.getElementById("audioMusicli");
+                                audioli.play();
+                            
+                            
+                            }
+                            </script>
+                            
+    
+    
+    
+    
+                           
+    
+    
+                            <center>
+                                <audio id="audioMusiclii">
+                                <source src="brothers.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audiolii = document.getElementById("audioMusiclii");
+                                function belllii( ){
+                                audiolii.play();
+                            
+                                }
+                            </script>
+    
+                            
+                            <script>
+                                function myFunction52()
+                                {
+                                    document.getElementById("output52").innerHTML= ("hermanos,");
+                                    lii.style.display = "none";
+                                    var audiolii = document.getElementById("audioMusiclii");
+                                audiolii.play();
+                                }
+                            </script>
+                            
+    
+    
+                            
+                            <center>
+                                <audio id="audioMusicliii">
+                                <source src="who.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audioliii = document.getElementById("audioMusicliii");
+                                function bellliii( ){
+                                audioliii.play();
+                            
+                                }
+                            </script>
+    
+    
+    
+                            <script>
+                                function myFunction53()
+                                {
+                                    document.getElementById("output53").innerHTML= ("quienes");
+                                    liii.style.display = "none";
+                                    var audioliii = document.getElementById("audioMusicliii");
+                                audioliii.play();
+                                }
+                                </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusicliv">
+        <source src="were.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioliv = document.getElementById("audioMusicliv");
+        function bellliv( ){
+        audioliv.play();
+    
+        }
+    </script>
+    
+    
+                                <script>
+                                    function myFunction54()
+                                    {
+                                        document.getElementById("output54").innerHTML= ("eran");
+                                        liv.style.display = "none";
+                                        var audioliv = document.getElementById("audioMusicliv");
+                                audioliv.play();
+                                    }
+                                </script>
+    
+    
+    
+    
+    
+    
+    
+                        <center>
+                            <audio id="audioMusiclv">
+                            <source src="all.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audiolv = document.getElementById("audioMusiclv");
+                            function belllv( ){
+                            audiolv.play();
+                        
+                            }
+                        </script>
+                        
+    
+                                <script>
+                                    function myFunction55()
+                                    {
+                                        document.getElementById("output55").innerHTML= ("todos ");
+                                        lv.style.display = "none";
+                                        var audiolv = document.getElementById("audioMusiclv");
+                                audiolv.play();
+                                
+                                    }
+                                </script>
+    
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusiclvi">
+        <source src="older.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioli = document.getElementById("audioMusiclvi");
+        function belllvi( ){
+        audiolvi.play();
+    
+        }
+    </script>
+    
+    
+                                <script>
+                                    function myFunction56()
+                                    {
+                                        document.getElementById("output56").innerHTML= ("mayores ");
+                                        lvi.style.display = "none";
+                                        var audiolvi = document.getElementById("audioMusiclvi");
+                                audiolvi.play();
+                                    }
+                                </script>
+    
+    
+    
+    
+                            <center>
+                                <audio id="audioMusiclvii">
+                                <source src="and.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audioli = document.getElementById("audioMusiclvii");
+                                function belllvii( ){
+                                audiolvii.play();
+                            
+                                }
+                            </script>
+    
+                                <script>
+                                    function myFunction57()
+                                    {
+                                        document.getElementById("output57").innerHTML= ("y");
+                                        lvii.style.display = "none";
+                                        var audiolvii = document.getElementById("audioMusiclvii");
+                                audiolvii.play();
+                                    }
+                                    </script>
+                                  
+                                  
+                                 
+    
+    
+    
+                                    <center>
+                                        <audio id="audioMusiclviii">
+                                        <source src="bigger.mp3" type="audio/mpeg">
+                                        </audio>
+                                        </center>
+                                    
+                                    <script>
+                                        var audioli = document.getElementById("audioMusiclviii");
+                                        function belllviii( ){
+                                        audiolviii.play();
+                                        }
+                                    </script>
+    
+    
+                                    <script>
+                                        function myFunction58()
+                                        {
+                                            document.getElementById("output58").innerHTML= ("más grandes");
+                                            lviii.style.display = "none";
+                                            var audiolviii = document.getElementById("audioMusiclviii");
+                                            audiolviii.play();
+                                        }
+                                    </script>
+                                    
+    
+    
+    
+                                    <center>
+                                        <audio id="audioMusiclix">
+                                        <source src="and.mp3" type="audio/mpeg">
+                                        </audio>
+                                        </center>
+                                    
+                                    <script>
+                                        var audiolix = document.getElementById("audioMusiclix");
+                                        function belllix( ){
+                                        audiolix.play();
+                                    
+                                        }
+                                    </script>
+                                
+                                    <script>
+                                        function myFunction59()
+                                        {
+                                            document.getElementById("output59").innerHTML= ("y ");
+                                            lix.style.display = "none";
+                                            var audiolix = document.getElementById("audioMusiclix");
+                                audiolix.play();
+                                        }
+                                        </script>
+                                      
+                                      
+                                                                   
+    
+                                      <center>
+                                        <audio id="audioMusiclx">
+                                        <source src="stronger.mp3" type="audio/mpeg">
+                                        </audio>
+                                        </center>
+                                    
+                                    <script>
+                                        var audioli = document.getElementById("audioMusiclx");
+                                        function belllx( ){
+                                        audiolx.play();
+                                    
+                                        }
+                                    </script>
+    
+                                        <script>
+                                            function myFunction60()
+                                            {
+                                                document.getElementById("output60").innerHTML= ("más fuertes");
+                                                lx.style.display = "none";
+                                                var audiolx = document.getElementById("audioMusiclx");
+                                                audiolx.play();
+    
+    
+                                            }
+                                        </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusiclxi">
+        <source src="than.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxi = document.getElementById("audioMusiclxi");
+        function belllxi( ){
+        audiolxi.play();
+    
+        }
+    </script>
+    
+                                <script>
+                                    function myFunction61()
+                                    {
+                                        document.getElementById("output61").innerHTML= ("que");
+                                        lxi.style.display = "none";
+                                        var audiolxi = document.getElementById("audioMusiclxi");
+                                audiolxi.play();
+                                    }
+                                </script>
+    
+    
+    
+    
+    
+                        <center>
+                            <audio id="audioMusiclxii">
+                            <source src="she.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audiolxii = document.getElementById("audioMusiclxii");
+                            function belllxii( ){
+                            audiolxii.play();
+                        
+                            }
+                        </script>
+    
+    
+                                <script>
+                                function myFunction62()
+                                    {
+                                        document.getElementById("output62").innerHTML= ("ella,");
+                                        lxii.style.display = "none";
+                                        var audiolxii = document.getElementById("audioMusiclxii");
+                                audiolxii.play();
+                                    }
+                                </script>
+                        
+                        
+    
+    
+    
+                        <center>
+                            <audio id="audioMusiclxiii">
+                            <source src="were.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audiolxiii = document.getElementById("audioMusiclxiii");
+                            function belllxiii( ){
+                            audiolxiii.play();
+                        
+                            }
+                        </script>
+    
+                        <script>
+                            function myFunction63()
+                            {
+                                document.getElementById("output63").innerHTML= ("eran ");
+                                lxiii.style.display = "none";
+                                var audiolxiii = document.getElementById("audioMusiclxiii");
+                                audiolxiii.play();
+                            }
+                        </script>
+                        
+                        
+    
+    
+                        <center>
+                            <audio id="audioMusiclxiv">
+                            <source src="taken.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audioli = document.getElementById("audioMusiclxiv");
+                            function belllxiv( ){
+                            audiolxiv.play();
+                        
+                            }
+                        </script>
+    
+                        <script>
+                            function myFunction64()
+                            {
+                                document.getElementById("output64").innerHTML= ("tomados");
+                                lxiv.style.display = "none";
+                                var audiolxiv = document.getElementById("audioMusiclxiv");
+                                audiolxiv.play();
+                            }
+                        </script>
+    
+    
+                        <center>
+                            <audio id="audioMusiclxv">
+                            <source src="into.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audiolxv = document.getElementById("audioMusiclxv");
+                            function belllxv( ){
+                            audiolxv.play();                  
+                            }
+                        </script>
+    
+                        <script>
+                            function myFunction65()
+                            {
+                                document.getElementById("output65").innerHTML= (" en    ");
+                                lxv.style.display = "none";
+                                var audiolxv = document.getElementById("audioMusiclxv");
+                                audiolxv.play();
+                            }
+                            </script>
+                            
+                            
+                            
+                            <center>
+                                <audio id="audioMusiclxvi">
+                                <source src="account.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audiolxvi = document.getElementById("audioMusiclxvi");
+                                function belllxvi( ){
+                                audiolxvi.play();
+                                }
+                            </script>
+    
+                            <script>
+                                function myFunction66()
+                                {
+                                    document.getElementById("output66").innerHTML= ("cuenta ");
+                                    lxvi.style.display = "none";
+                                    var audiolxvi = document.getElementById("audioMusiclxvi");
+                                audiolxvi.play();
+                                }
+                            </script>
+                            
+                            
+                            <center>
+                                <audio id="audioMusiclxvii">
+                                <source src="all.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audiolxvii = document.getElementById("audioMusiclxvii");
+                                function belllxvii( ){
+                                audiolxvii.play();                        
+                                }
+                            </script>
+    
+                        
+                            <script>
+                                function myFunction67()
+                                {
+                                    document.getElementById("output67").innerHTML= ("todo ");
+                                    lxvii.style.display = "none";
+                                    var audiolxvii = document.getElementById("audioMusiclxvii");
+                                audiolxvii.play();
+                                }
+                                </script>
+    
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusiclxviii">
+        <source src="the.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxviii = document.getElementById("audioMusiclxviii");
+        function belllxviii( ){
+        audiolxviii.play();
+    
+        }
+    </script>
+    
+    
+                                <script>
+                                    function myFunction68()
+                                    {
+                                        document.getElementById("output68").innerHTML= (" el");
+                                        lxviii.style.display = "none";
+                                        var audiolxviii = document.getElementById("audioMusiclxviii");
+                                audiolxviii.play();
+                                    }
+                                </script>
+    
+    
+                        <center>
+                            <audio id="audioMusiclxix">
+                            <source src="time.mp3" type="audio/mpeg">
+                            </audio>
+                            </center>
+                        
+                        <script>
+                            var audiolxix = document.getElementById("audioMusiclxix");
+                            function belllxix( ){
+                            audiolxix.play();
+                            }
+                        </script>
+                        
+                        
+                                <script>
+                                    function myFunction69()
+                                    {
+                                        document.getElementById("output69").innerHTML= ("tiempo.");
+                                        lxix.style.display = "none";
+                                        var audiolxix = document.getElementById("audioMusiclxix");
+                                        audiolxix.play();                            
+                                    }
+                                </script>
+                                
+                     
+                        <span>
+                            <a id="output51"></a>
+                            <a id="output52"></a>
+                            <a id="output53"></a>
+                            <a id="output54"></a>
+                            <a id="output55"></a>
+                            <a id="output56"></a>
+                            <a id="output57"></a>
+                            <a id="output58"></a>
+                            <a id="output59"></a>
+                            <a id="output60"></a>
+                            <a id="output61"></a>
+                            <a id="output62"></a>
+                            <a id="output63"></a>
+                            <a id="output64"></a>
+                            <a id="output65"></a>
+                            <a id="output66"></a>
+                            <a id="output67"></a>
+                            <a id="output68"></a>
+                            <a id="output69"></a>
+                            
+                            </span>
+                    
+                            <!--4 Párrafo 
+                       Her brothers, who were all older and bigger and stronger than she, were taken into account all the time.
+                     Sus hermanos, quienes eran todos mayores y más grandes y más fuertes que ella, eran tomados en cuenta todo el tiempo.
+                    -->
+                    
+                            <br/>
+                            <br/>
+                            <button id= li onclick="myFunction51()" class="button button1" > Her </button>
+                            <button id= lii onclick="myFunction52()"  class="button button1" >  brothers,    </button>
+                            <button id= liii onclick="myFunction53()"  class="button button1" >who  </button>
+                            <button id= liv onclick="myFunction54()" class="button button1" > were   </button>
+                            <button id= lv onclick="myFunction55()" class="button button1"  >all  </button>
+                            <button id= lvi onclick="myFunction56()" class="button button1"  > older </button>
+                            <button id= lvii onclick="myFunction57()" class="button button1"  > and  </button>
+                            <button id= lviii onclick="myFunction58()"  class="button button1" > bigger  </button>
+                            <button id= lix onclick="myFunction59()" class="button button1"   >and   </button>
+                            <button id= lx onclick="myFunction60()" class="button button1"  > stronger   </button>
+                            <button id= lxi onclick="myFunction61()" class="button button1" >than  </button>
+                            <button id= lxii onclick="myFunction62()" class="button button1"  > she,  </button>
+                            <button id= lxiii onclick="myFunction63()" class="button button1" >were  </button>
+                            <button id= lxiv onclick="myFunction64()" class="button button1"  >  taken </button>
+                            <button id= lxv onclick="myFunction65()" class="button button1"  > into  </button>
+                            <button id= lxvi onclick="myFunction66()" class="button button1"   >account  </button>
+                            <button id= lxvii onclick="myFunction67()" class="button button1" > all  </button>
+                            <button id= lxviii onclick="myFunction68()"  class="button button1"   > the   </button>
+                            <button id= lxix onclick="myFunction69()" class="button button1"  >time.   </button>
+                           
+                            
+                    
+                    <!--4 TERMINA PARRAFO 4-->
+                    
+                    <!--5 INCIA PARRAFO 5-->
+                    
+                    <p><b>5. And they were like four rising suns in the eyes of their father.</b></p>
+                    <!--5 Párrafo 
+                       And they were like four rising suns in the eyes of their father.
+                    Y ellos eran como cuatro soles nacientes en los ojos de su padre.
+                    -->
+    
+                    
+    
+                    <center>
+                        <audio id="audioMusiclxx">
+                        <source src="and.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+                    
+                    <script>
+                        var audiolxx = document.getElementById("audioMusiclxx");
+                        function belllxx( ){
+                        audiolxx.play();
+                        }
+                    </script>                
+    
+    
+                    <script>
+                        function myFunction70()
+                        {
+                            document.getElementById("output70").innerHTML= ("Y ");
+                            lxx.style.display = "none";
+                            var audiolxx = document.getElementById("audioMusiclxx");
+                            audiolxx.play();     
+                        }
+                    </script>
+    
+                   
+    
+    
+    <center>
+        <audio id="audioMusiclxxi">
+        <source src="they.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxi = document.getElementById("audioMusiclxxi");
+        function belllxxi( ){
+        audiolxxi.play();
+        }
+    </script>    
+    
+                    <script>
+                        function myFunction71()
+                        {
+                            document.getElementById("output71").innerHTML= ("ellos ");
+                            lxxi.style.display = "none";
+                            var audiolxxi = document.getElementById("audioMusiclxxi");
+                            audiolxxi.play();     
+    
+                        }
+                        </script>
+    
+    
+    <center>
+        <audio id="audioMusiclxxii">
+        <source src="were.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxii = document.getElementById("audioMusiclxxii");
+        function belllxix( ){
+        audiolxxii.play();
+        }
+    </script>    
+                        
+                        <script>
+                            function myFunction72()
+                            {
+                                document.getElementById("output72").innerHTML= ("eran ");
+                                lxxii.style.display = "none";
+                                var audiolxxii = document.getElementById("audioMusiclxxii");
+                                audiolxxii.play();     
+                            }
+                        </script>
+    
+    
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusiclxxiii">
+        <source src="like.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxiii = document.getElementById("audioMusiclxxiii");
+        function belllxxiii( ){
+        audiolxxiii.play();
+        }
+    </script>    
+    
+                    
+                        <script>
+                            function myFunction73()
+                            {
+                                document.getElementById("output73").innerHTML= ("como ");
+                                lxxiii.style.display = "none";
+                                var audiolxxiii = document.getElementById("audioMusiclxxiii");
+                            audiolxxiii.play();     
+                            }
+                            </script>
+    
+    
+                            <center>
+                                <audio id="audioMusiclxxiv">
+                                <source src="four.mp3" type="audio/mpeg">
+                                </audio>
+                                </center>
+                            
+                            <script>
+                                var audiolxxiv = document.getElementById("audioMusiclxxiv");
+                                function belllxxiv( ){
+                                audiolxxiv.play();
+                                }
+                            </script>    
+    
+    
+                            <script>
+                                function myFunction74()
+                                {
+                                    document.getElementById("output74").innerHTML= ("cuatro ");
+                                    lxxiv.style.display = "none";
+                                    var audiolxxiv = document.getElementById("audioMusiclxxiv");
+                                    audiolxxiv.play();     
+                                }
+                            </script>
+    
+    
+                    <center>
+                        <audio id="audioMusiclxxv">
+                        <source src="suns.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+                    
+                    <script>
+                        var audiolxxv = document.getElementById("audioMusiclxxv");
+                        function belllxxv( ){
+                        audiolxxv.play();
+                        }
+                    </script>    
+    
+                            <script>
+                                function myFunction75()
+                                {
+                                    document.getElementById("output75").innerHTML= ("soles ");
+                                    lxxv.style.display = "none";
+                                    var audiolxxv = document.getElementById("audioMusiclxxv");
+                                    audiolxxv.play();     
+                                }
+                            </script>
+    
+    
+                            <center>
+                                <audio id="audioMusiclxxvi">
+                                <source src="rising.mp3" type="audio/mpeg">
+                                </audio>
+                            </center>
+    
+                            <script>
+                            var audiolxxvi = document.getElementById("audioMusiclxxvi");
+                            function belllxxvi( ){
+                            audiolxxvi.play();
+                            }
+                            </script>    
+    
+    
+                            <script>
+                                function myFunction76()
+                                {
+                                    document.getElementById("output76").innerHTML= ("nacientes  ");
+                                    lxxvi.style.display = "none";
+                                    var audiolxxvi = document.getElementById("audioMusiclxxvi");
+                                    audiolxxvi.play();     
+    
+                                }
+                            </script>
+    
+    
+    <center>
+        <audio id="audioMusiclxxvii">
+        <source src="in.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiolxxvii = document.getElementById("audioMusiclxxvii");
+        function belllxxvii( ){
+        audiolxxvii.play();
+        }
+    </script>    
+    
+    
+                            <script>
+                                function myFunction77()
+                                {
+                                    document.getElementById("output77").innerHTML= ("en ");
+                                    lxxvii.style.display = "none";
+                                    var audiolxxvii = document.getElementById("audioMusiclxxvii");
+                                    audiolxxvii.play();     
+                                }
+                                </script>
+    
+    
+    <center>
+        <audio id="audioMusiclxxviii">
+        <source src="the.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxviii = document.getElementById("audioMusiclxxviii");
+        function belllxxviii( ){
+        audiolxxviii.play();
+        }
+    </script>    
+    
+                                <script>
+                                    function myFunction78()
+                                    {
+                                        document.getElementById("output78").innerHTML= ("los ");
+                                        lxxviii.style.display = "none";
+                                        var audiolxxviii = document.getElementById("audioMusiclxxviii");
+                                        audiolxxviii.play();     
+                                    }
+                                </script>
+    
+    
+                                <center>
+                                    <audio id="audioMusiclxxix">
+                                    <source src="eyes.mp3" type="audio/mpeg">
+                                    </audio>
+                                    </center>
+                                
+                                <script>
+                                    var audiolxxix = document.getElementById("audioMusiclxxix");
+                                    function belllxxix( ){
+                                    audiolxxix.play();
+                                    }
+                                </script>    
+                                
+    
+                                <script>
+                                    function myFunction79()
+                                    {
+                                        document.getElementById("output79").innerHTML= ("ojos ");
+                                        lxxix.style.display = "none";
+                                        var audiolxxix = document.getElementById("audioMusiclxxix");
+                                        audiolxxix.play();     
+                                    }
+                                    </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusiclxxx">
+        <source src="of.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxx = document.getElementById("audioMusiclxxx");
+        function belllxxx( ){
+        audiolxxx.play();
+        }
+    </script>    
+    
+                                    <script>
+                                        function myFunction80()
+                                        {
+                                            document.getElementById("output80").innerHTML= ("de ");
+                                            lxxx.style.display = "none";
+                                            var audiolxxx = document.getElementById("audioMusiclxxx");
+                                            audiolxxx.play();      
+                                        }
+                                    </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusiclxxxi">
+        <source src="their.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxxi = document.getElementById("audioMusiclxxxi");
+        function belllxxxi( ){
+        audiolxxxi.play();
+        }
+    </script>    
+    
+    
+                            <script>
+                                function myFunction81()
+                                {
+                                    document.getElementById("output81").innerHTML= ("su");
+                                    lxxxi.style.display = "none";
+                                    var audiolxxxi = document.getElementById("audioMusiclxxxi");
+                                    audiolxxxi.play();     
+                                }
+                            </script>
+    
+                    <center>
+                        <audio id="audioMusiclxxxii">
+                        <source src="father.mp3" type="audio/mpeg">
+                        </audio>
+                        </center>
+                    
+                    <script>
+                        var audiolxxxii = document.getElementById("audioMusiclxxxii");
+                        function belllxxxii ( ){
+                        audiolxxxii.play();
+                        }
+                    </script>    
+                    
+                            <script>
+                            function myFunction82()
+                                {
+                                    document.getElementById("output82").innerHTML= ("padre.");
+                                    lxxxii.style.display = "none";
+                                    var audiolxxxii = document.getElementById("audioMusiclxxxii");
+                                    audiolxxxii.play();     
+                                }
+                            </script>
+                                                
+                    
+                    <span>
+                        <a id="output70"></a>
+                        <a id="output71"></a>
+                        <a id="output72"></a>
+                        <a id="output73"></a>
+                        <a id="output74"></a>
+                        <a id="output75"></a>
+                        <a id="output76"></a>
+                        <a id="output77"></a>
+                        <a id="output78"></a>
+                        <a id="output79"></a>
+                        <a id="output80"></a>
+                        <a id="output81"></a>
+                        <a id="output82"></a>
+                        </span>
+                       
+                    <!--5 Párrafo 
+                       And they were like four rising suns in the eyes of their fahther.
+                    Y ellos eran como cuatro soles nacientes en los ojos de su padre.
+                    -->
+                    
+                        <br/>
+                        <br/>
+                        <button id= lxx onclick="myFunction70()" class="button button1"  > And  </button>
+                        <button id= lxxi onclick="myFunction71()" class="button button1" >they  </button>
+                        <button id= lxxii onclick="myFunction72()" class="button button1" > were   </button>
+                        <button id= lxxiii onclick="myFunction73()" class="button button1"  >like  </button>
+                        <button id= lxxiv onclick="myFunction74()" class="button button1"  >four  </button>
+                        <button id= lxxvi onclick="myFunction76()" class="button button1"  >rising   </button>
+                        <button id= lxxv onclick="myFunction75()" class="button button1"  > suns  </button>
+                        <button id= lxxvii onclick="myFunction77()" class="button button1"  > in   </button>
+                        <button id= lxxviii onclick="myFunction78()" class="button button1"  >the   </button>
+                        <button id= lxxix onclick="myFunction79()" class="button button1"  > eyes    </button>
+                        <button id= lxxx onclick="myFunction80()" class="button button1"  > of    </button>
+                        <button id= lxxxi onclick="myFunction81()" class="button button1" > their  </button>
+                        <button id= lxxxii onclick="myFunction82()" class="button button1" > father. </button>
+                        
+                    <!--5 TERMINA PARRAFO 5-->
+                    
+                                   
+                    
+                   <!--<h3>Rubik English</h3>
+                    <p>En Rubik English somos especialistas en la correcta enseñanza del inglés, ya que la realizamos de una manera rápida y efectiva, enfocándonos en que el alumno comprenda el núcleo del idioma, explicándole todos los conceptos de una manera sencilla y sin esquemas complicados.</p>-->
+                </div>
+                
+                
+                <div>
+                
+                    <img src="img/news2.jpg" alt="News2">
+     <!--6 INCIA PARRAFO 6-->
+                    
+     <p><b>6. They helped the emperor rule the kingdom and teach the people the ways of peace.</b></p>
+                    
+     <!--6 Párrafo 
+         They helped the emperor rule the kingdom and teach the people the ways of peace.
+         Ellos ayudaron al emperador |a gobernar| el reino y |a enseñar a| la gente los caminos |de la| paz.
+     -->
+     
+    
+     <center>
+        <audio id="audioMusiclxxxiii">
+        <source src="they.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxxiii = document.getElementById("audioMusiclxxxiii");
+        function belllxxxiii ( ){
+        audiolxxxiii.play();
+        }
+    </script>    
+     
+     <script>
+         function myFunction83()
+         {
+             document.getElementById("output83").innerHTML= ("Ellos");
+             lxxxiii.style.display = "none";
+             var audiolxxxiii = document.getElementById("audioMusiclxxxiii");
+             audiolxxxiii.play();   
+     
+         }
+     </script>
+     
+    
+     <center>
+        <audio id="audioMusiclxxxiv">
+        <source src="helped.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxxiv = document.getElementById("audioMusiclxxxiv");
+        function belllxxxiv ( ){
+        audiolxxxiv.play();
+        }
+    </script>    
+    
+    
+     <script>
+         function myFunction84()
+         {
+             document.getElementById("output84").innerHTML= ("ayudaban a");
+             lxxxiv.style.display = "none";
+             var audiolxxxiv = document.getElementById("audioMusiclxxxiv");
+             audiolxxxiv.play();   
+         }
+     </script>
+     
+    
+     <center>
+        <audio id="audioMusiclxxxv">
+        <source src="the.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxxv = document.getElementById("audioMusiclxxxv");
+        function belllxxxv ( ){
+        audiolxxxv.play();
+        }
+    </script>    
+    
+     <script>
+         function myFunction85()
+         {
+             document.getElementById("output85").innerHTML= (" el  ");
+             lxxxv.style.display = "none";
+             var audiolxxxv = document.getElementById("audioMusiclxxxv");
+             audiolxxxv.play();   
+         }
+         </script>
+    
+         <center>
+            <audio id="audioMusiclxxxvi">
+            <source src="emperor.mp3" type="audio/mpeg">
+            </audio>
+            </center>
+        
+        <script>
+            var audiolxxxvi = document.getElementById("audioMusiclxxxvi");
+            function belllxxxvi ( ){
+            audiolxxxvi.play();
+            }
+        </script>    
+    
+         <script>
+             function myFunction86()
+             {
+                 document.getElementById("output86").innerHTML= ("emperador ");
+                 lxxxvi.style.display = "none";
+                 var audiolxxxvi = document.getElementById("audioMusiclxxxvi");
+                 audiolxxxvi.play();   
+             }
+         </script>
+    
+         <center>
+            <audio id="audioMusiclxxxvii">
+            <source src="rule.mp3" type="audio/mpeg">
+            </audio>
+            </center>
+        
+        <script>
+            var audiolxxxvii = document.getElementById("audioMusiclxxxvii");
+            function belllxxxvii ( ){
+            audiolxxxvii.play();
+            }
+        </script>    
+         
+         <script>
+             function myFunction87()
+             {
+                 document.getElementById("output87").innerHTML= ("a gobernar  ");
+                 lxxxvii.style.display = "none";
+                 var audiolxxxvii = document.getElementById("audioMusiclxxxvii");
+                 audiolxxxvii.play();   
+             }
+             </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusiclxxxviii">
+        <source src="the.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxxviii = document.getElementById("audioMusiclxxxviii");
+        function belllxxxviii ( ){
+        audiolxxxviii.play();
+        }
+    </script>    
+             <script>
+                 function myFunction88()
+                 {
+                     document.getElementById("output88").innerHTML= (" el  ");
+                     lxxxviii.style.display = "none";
+                     var audiolxxxviii = document.getElementById("audioMusiclxxxviii");
+                     audiolxxxviii.play();   
+                 }
+             </script>
+    
+    
+    <center>
+        <audio id="audioMusiclxxxix">
+        <source src="kingdom.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiolxxxix = document.getElementById("audioMusiclxxxix");
+        function belllxxxix ( ){
+        audiolxxxix.play();
+        }
+    </script>    
+     
+             <script>
+                 function myFunction89()
+                 {
+                     document.getElementById("output89").innerHTML= ("reino  ");
+                     lxxxix.style.display = "none";
+                     var audiolxxxix = document.getElementById("audioMusiclxxxix");
+                     audiolxxxix.play();   
+             
+                 }
+    </script>
+    
+    
+    <center>
+        <audio id="audioMusicxc">
+        <source src="and.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audioxc = document.getElementById("audioMusicxc");
+        function bellxc ( ){
+        audioxc.play();
+        }
+    </script>    
+    
+             <script>
+                 function myFunction90()
+                 {
+                     document.getElementById("output90").innerHTML= ("y ");
+                     xc.style.display = "none";
+                     var audioxc = document.getElementById("audioMusicxc");
+                     audioxc.play();   
+                 }
+             </script>
+    
+    <center>
+        <audio id="audioMusicxci">
+        <source src="teach.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxci = document.getElementById("audioMusicxci");
+        function bellxci ( ){
+        audioxci.play();
+        }
+    </script>    
+    
+     
+    <script>
+         function myFunction91()
+         {
+             document.getElementById("output91").innerHTML= ("a enseñar a");
+             xci.style.display = "none";
+             var audioxci = document.getElementById("audioMusicxci");
+             audioxci.play();   
+         }
+    </script>
+    
+    <center>
+        <audio id="audioMusicxcii">
+        <source src="the.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxcii = document.getElementById("audioMusicxcii");
+        function bellxcii ( ){
+        audioxcii.play();
+        }
+    </script>    
+    
+    
+         <script>
+             function myFunction92()
+             {
+                 document.getElementById("output92").innerHTML= ("la ");
+                 xcii.style.display = "none";
+                 var audioxcii = document.getElementById("audioMusicxcii");
+                  audioxcii.play();   
+             }
+         </script>
+    
+         <center>
+            <audio id="audioMusicxciii">
+            <source src="people.mp3" type="audio/mpeg">
+            </audio>
+            </center>
+        
+        <script>
+            var audioxciii = document.getElementById("audioMusicxciii");
+            function bellxciii ( ){
+            audioxciii.play();
+            }
+        </script>    
+    
+         <script>
+             function myFunction93()
+             {
+                 document.getElementById("output93").innerHTML= ("gente ");
+                 xciii.style.display = "none";
+                 var audioxciii = document.getElementById("audioMusicxciii");
+                 audioxciii.play();   
+             }
+             </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusicxciv">
+        <source src="the.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxciv = document.getElementById("audioMusicxciv");
+        function bellxciv ( ){
+        audioxciv.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction94()
+                 {
+                     document.getElementById("output94").innerHTML= ("los ");
+                     xciv.style.display = "none";
+                     var audioxciv = document.getElementById("audioMusicxciv");
+                     audioxciv.play();   
+                 }
+             </script>
+    
+     <center>
+        <audio id="audioMusicxcv">
+        <source src="ways.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxcv = document.getElementById("audioMusicxcv");
+        function bellxcv ( ){
+        audioxcv.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction95()
+                 {
+                     document.getElementById("output95").innerHTML= ("caminos");
+                     xcv.style.display = "none";
+                     var audioxcv = document.getElementById("audioMusicxcv");
+                     audioxcv.play();          
+                 }
+             </script>
+    
+    
+    <center>
+        <audio id="audioMusicxcvi">
+        <source src="of.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audioxcvi = document.getElementById("audioMusicxcvi");
+        function bellxcvi ( ){
+        audioxcvi.play();
+        }
+    </script>    
+    
+             <script>
+                 function myFunction96()
+                 {
+                     document.getElementById("output96").innerHTML= ("de la");
+                     xcvi.style.display = "none";
+                     var audioxcvi = document.getElementById("audioMusicxcvi");
+                     audioxcvi.play();   
+                 }
+             </script>
+    
+    
+    <center>
+        <audio id="audioMusicxcvii">
+        <source src="peace.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxcvii = document.getElementById("audioMusicxcvii");
+        function bellxcvii ( ){
+        audioxcvii.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction97()
+                 {
+                     document.getElementById("output97").innerHTML= ("paz.");
+                     xcvii.style.display = "none";
+                     var audioxcvii = document.getElementById("audioMusicxcvii");
+                     audioxcvii.play();   
+                 }
+                 </script>           
+                
+     
+     <span>
+         <a id="output83"></a>
+         <a id="output84"></a>
+         <a id="output85"></a>
+         <a id="output86"></a>
+         <a id="output87"></a>
+         <a id="output88"></a>
+         <a id="output89"></a>
+         <a id="output90"></a>
+         <a id="output91"></a>
+         <a id="output92"></a>
+         <a id="output93"></a>
+         <a id="output94"></a>
+         <a id="output95"></a>
+         <a id="output96"></a>
+         <a id="output97"></a>
+         
+         </span>
+        <!--6 Párrafo 
+         They helped the emperor rule the kingdom and teach the people the ways of peace.
+         Ellos ayudaron al emperador a gobernar el reino y a enseñar a la gente los caminos de la paz.
+     -->
+         <br/>
+         <br/>
+         <button id= lxxxiii onclick="myFunction83()" class="button button1" >  They  </button>
+         <button id= lxxxiv onclick="myFunction84()" class="button button1" >   helped   </button>
+         <button id= lxxxv onclick="myFunction85()" class="button button1" > the  </button>
+         <button id= lxxxvi onclick="myFunction86()" class="button button1"  >emperor   </button>
+         <button id= lxxxvii onclick="myFunction87()" class="button button1" >rule  </button>
+         <button id= lxxxviii onclick="myFunction88()" class="button button1" > the  </button>
+         <button id= lxxxix onclick="myFunction89()" class="button button1" >  kingdom    </button>
+         <button id= xc onclick="myFunction90()" class="button button1" > and   </button>
+         <button id= xci onclick="myFunction91()"  class="button button1" > teach </button>
+         <button id= xcii onclick="myFunction92()" class="button button1" >  the  </button>
+         <button id= xciii onclick="myFunction93()" class="button button1" >people </button>
+         <button id= xciv onclick="myFunction94()" class="button button1"  > the  </button>
+         <button id= xcv onclick="myFunction95()" class="button button1"   >ways  </button>
+         <button id= xcvi onclick="myFunction96()" class="button button1"  > of  </button>
+         <button id= xcvii onclick="myFunction97()" class="button button1"  > peace.  </button>
+         
+        
+     
+     <!--6 TERMINA PARRAFO 6-->
+     
+     <!-- INCIA PARRAFO 7-->
+     
+     <p><b>7. Even her three sisters were all older and bigger and stronger than she.</b></p>
+     <!--7 Párrafo 
+     Even    her three   sisters  were all   older and bigger        and stronger than she.
+     Incluso sus tres    hermanas eran todas mayores y |más grandes| y  |más fuertes| que ella.
+     -->
+     
+    
+     <center>
+        <audio id="audioMusicxcviii">
+        <source src="even.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioxcviii = document.getElementById("audioMusicxcviii");
+        function bellxcviii ( ){
+        audioxcviii.play();
+        }
+    </script>    
+    
+    
+     <script>
+         function myFunction98()
+         {
+             document.getElementById("output98").innerHTML= ("Incluso ");
+             xcviii.style.display = "none";
+             var audioxcviii = document.getElementById("audioMusicxcviii");
+             audioxcviii.play(); 
+         }
+     </script>
+     
+     <center>
+        <audio id="audioMusicxcix">
+        <source src="her.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audioxcix = document.getElementById("audioMusicxcix");
+        function bellxcix ( ){
+        audioxcix.play();
+        }
+    </script>    
+    
+    <script>
+         function myFunction99()
+         {
+             document.getElementById("output99").innerHTML= (" sus ");
+             xcix.style.display = "none";
+             var audioxcix = document.getElementById("audioMusicxcix");
+             audioxcix.play(); 
+         }
+    </script>
+    
+    
+    <center>
+        <audio id="audioMusicc">
+        <source src="three.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audioc = document.getElementById("audioMusicc");
+        function bellc ( ){
+        audioc.play();
+        }
+    </script>    
+    
+         <script>
+             function myFunction100()
+             {
+                 document.getElementById("output100").innerHTML= ("tres");
+                 c.style.display = "none";
+                 var audioc = document.getElementById("audioMusicc");
+             audioc.play(); 
+             }
+         </script>
+    
+    
+    <center>
+        <audio id="audioMusicci">
+        <source src="sisters.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audioci = document.getElementById("audioMusicci");
+        function bellci ( ){
+        audioci.play();
+        }
+    </script>    
+    
+    
+     <script>
+     function myFunction101()
+     {
+         document.getElementById("output101").innerHTML= ("hermanas  ");
+         ci.style.display = "none";
+         var audioci = document.getElementById("audioMusicci");
+         audioci.play(); 
+     }
+     </script>
+    
+    
+    <center>
+        <audio id="audioMusiccii">
+        <source src="were.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocii = document.getElementById("audioMusiccii");
+        function bellcii ( ){
+        audiocii.play();
+        }
+    </script>    
+    
+    <script>
+    function myFunction102()
+     {
+         document.getElementById("output102").innerHTML= ("eran");
+         cii.style.display = "none";
+         var audiocii = document.getElementById("audioMusiccii");
+             audiocii.play(); 
+     }
+     </script>
+     
+     
+     
+    
+     <center>
+        <audio id="audioMusicciii">
+        <source src="all.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiociii = document.getElementById("audioMusicciii");
+        function bellciii ( ){
+        audiociii.play();
+        }
+    </script>    
+    
+    
+     <script>
+     function myFunction103()
+     {
+     document.getElementById("output103").innerHTML= (" todas ");
+     ciii.style.display = "none";
+     var audiociii = document.getElementById("audioMusicciii");
+     audiociii.play(); 
+     }
+     </script>
+     
+     <center>
+        <audio id="audioMusicciv">
+        <source src="older.mp3" type="audio/mpeg">
+        </audio>
+     </center>
+    
+    <script>
+        var audiociv = document.getElementById("audioMusicciv");
+        function bellciv ( ){
+        audiociv.play();
+        }
+    </script>    
+    
+     <script>
+     function myFunction104()
+     {
+     document.getElementById("output104").innerHTML= (" mayores  ");
+     civ.style.display = "none";
+     var audiociv = document.getElementById("audioMusicciv");
+     audiociv.play(); 
+     }
+     </script>
+    
+    <center>
+        <audio id="audioMusiccv">
+        <source src="and.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocv = document.getElementById("audioMusiccv");
+        function bellcv ( ){
+        audiocv.play();
+        }
+    </script>    
+    
+     <script>
+     function myFunction105()
+     {
+     document.getElementById("output105").innerHTML= ("y  ");
+     cv.style.display = "none";
+     var audiocv = document.getElementById("audioMusiccv");
+     audiocv.play(); 
+     }
+     </script>
+      
+    
+    <center>
+        <audio id="audioMusiccvi">
+        <source src="bigger.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocvi = document.getElementById("audioMusiccvi");
+        function bellcvi ( ){
+        audiocvi.play();
+        }
+    </script>    
+    
+     <script>
+     function myFunction106()
+     {
+     document.getElementById("output106").innerHTML= ("más grandes  ");
+     cvi.style.display = "none";
+     var audiocvi = document.getElementById("audioMusiccvi");
+     audiocvi.play(); 
+     }
+     </script>
+    
+    <center>
+        <audio id="audioMusiccvii">
+        <source src="and.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocvii = document.getElementById("audioMusiccvii");
+        function bellcvii ( ){
+        audiocvii.play();
+        }
+    </script>    
+    
+     <script>
+     function myFunction107()
+     {
+     document.getElementById("output107").innerHTML= ("y    ");
+     cvii.style.display = "none";
+     var audiocvii = document.getElementById("audioMusiccvii");
+     audiocvii.play(); 
+     }
+     </script>
+    
+    <center>
+        <audio id="audioMusiccviii">
+        <source src="stronger.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocviii = document.getElementById("audioMusiccviii");
+        function bellcviii ( ){
+        audiocviii.play();
+        }
+    </script>    
+    
+     <script>
+     function myFunction108()
+     {
+         document.getElementById("output108").innerHTML= (" más fuertes");
+         cviii.style.display = "none";
+         var audiocviii = document.getElementById("audioMusiccviii");
+             audiocviii.play(); 
+     }
+     </script>
+    
+     <center>
+        <audio id="audioMusiccix">
+        <source src="than.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    
+    <script>
+        var audiocix = document.getElementById("audioMusiccix");
+        function bellcix ( ){
+        audiocix.play();
+        }
+    </script>    
+    
+     
+     <script>
+     function myFunction109()
+     {
+         document.getElementById("output109").innerHTML= ("que");
+         cix.style.display = "none";
+         var audiocix = document.getElementById("audioMusiccix");
+         audiocix.play(); 
+     }
+     </script>
+    
+    <center>
+        <audio id="audioMusiccx">
+        <source src="she.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocx = document.getElementById("audioMusiccx");
+        function bellcx ( ){
+        audiocx.play();
+        }
+    </script>    
+    
+    
+     <script>
+     function myFunction110()
+     {
+         document.getElementById("output110").innerHTML= ("ella.");
+         cx.style.display = "none";
+         var audiocx = document.getElementById("audioMusiccx");
+         audiocx.play(); 
+     }
+     </script>
+     
+     
+     
+     <span>
+         <a id="output98"></a>
+         <a id="output99"></a>
+         <a id="output100"></a>
+         <a id="output101"></a>
+         <a id="output102"></a>
+         <a id="output103"></a>
+         <a id="output104"></a>
+         <a id="output105"></a>
+         <a id="output106"></a>
+         <a id="output107"></a>
+         <a id="output108"></a>
+         <a id="output109"></a>
+         <a id="output110"></a>
+        
+         </span>
+        
+     <!--7 Párrafo 
+     Even her three sisters were all older and bigger and stronger than she.
+     Incluso sus tres hermanas eran todas mayores y más grandes y más fuertes que ella.
+     
+     -->
+     
+         <br/>
+         <br/>
+         <button id= xcviii onclick="myFunction98()" class="button button1" >Even  </button>
+         <button id= xcix onclick="myFunction99()"  class="button button1" > her  </button>
+         <button id= c onclick="myFunction100()" class="button button1" > three</button>
+         <button id= ci onclick="myFunction101()" class="button button1"  >  sisters  </button>
+         <button id= cii onclick="myFunction102()"  class="button button1"  >were   </button>
+         <button id= ciii onclick="myFunction103()" class="button button1"  > all  </button>
+         <button id= civ onclick="myFunction104()" class="button button1"  >  older </button>
+         <button id= cv onclick="myFunction105()" class="button button1"  > and </button>
+         <button id= cvi onclick="myFunction106()" class="button button1"  >bigger </button>
+         <button id= cvii onclick="myFunction107()"  class="button button1" > and  </button>
+         <button id= cviii onclick="myFunction108()" class="button button1"   > stronger  </button>
+         <button id= cix onclick="myFunction109()" class="button button1"  > than  </button>
+         <button id= cx onclick="myFunction110()" class="button button1"  > she. </button>
+        
+        
+         
+     <!--7 TERMINA PARRAFO 7-->
+     
+     <!--8 INCIA PARRAFO 8-->
+     
+         <p><b>8. They were like three midnight moons in the eyes of their father.</b></p>
+     
+     <!--8 Párrafo 
+         They were like three midnight moons         in the eyes of their father.
+         Ellas eran como tres lunas |de medianoche|  en los ojos de su padre.
+     
+     -->
+    
+    
+    <center>
+        <audio id="audioMusiccxi">
+        <source src="they.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxi = document.getElementById("audioMusiccxi");
+        function bellcxi ( ){
+        audiocxi.play();
+        }
+    </script>    
+    
+    <script>
+         function myFunction111()
+         {
+             document.getElementById("output111").innerHTML= ("Ellas");
+             cxi.style.display = "none";
+             var audiocxi = document.getElementById("audioMusiccxi");
+             audiocxi.play();
+         }
+    </script>
+    
+    <center>
+        <audio id="audioMusiccxii">
+        <source src="were.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxii = document.getElementById("audioMusiccxii");
+        function bellcxii ( ){
+        audiocxii.play();
+        }
+    </script>    
+    
+         <script>
+             function myFunction112()
+             {
+                 document.getElementById("output112").innerHTML= (" eran ");
+                 cxii.style.display = "none";
+                 var audiocxii = document.getElementById("audioMusiccxii");
+                 audiocxii.play();
+             }
+         </script>
+    
+         <center>
+            <audio id="audioMusiccxiii">
+            <source src="like.mp3" type="audio/mpeg">
+            </audio>
+        </center>
+        
+        <script>
+            var audiocxiii = document.getElementById("audioMusiccxiii");
+            function bellcxiii ( ){
+            audiocxiii.play();
+            }
+        </script>    
+         
+         <script>
+             function myFunction113()
+             {
+                 document.getElementById("output113").innerHTML= ("como ");
+                 cxiii.style.display = "none";
+                 var audiocxiii = document.getElementById("audioMusiccxiii");
+                 audiocxiii.play();
+             }
+             </script>
+    
+    <center>
+        <audio id="audioMusiccxiv">
+        <source src="three.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxiv = document.getElementById("audioMusiccxiv");
+        function bellcxiv ( ){
+        audiocxiv.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction114()
+                 {
+                     document.getElementById("output114").innerHTML= ("tres");
+                     cxiv.style.display = "none";
+                     var audiocxiv = document.getElementById("audioMusiccxiv");
+                     audiocxiv.play();
+                 }
+             </script>
+    
+    <center>
+        <audio id="audioMusiccxv">
+        <source src="moons.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxv = document.getElementById("audioMusiccxv");
+        function bellcxv ( ){
+        audiocxv.play();
+        }
+    </script>    
+     
+     
+             <script>
+                 function myFunction115()
+                 {
+                     document.getElementById("output115").innerHTML= ("lunas");
+                     cxv.style.display = "none";
+                     var audiocxv = document.getElementById("audioMusiccxv");
+                     audiocxv.play();
+                 }
+             </script>
+    
+    <center>
+        <audio id="audioMusiccxvi">
+        <source src="midnight.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxvi = document.getElementById("audioMusiccxvi");
+        function bellcxvi ( ){
+        audiocxvi.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction116()
+                 {
+                     document.getElementById("output116").innerHTML= (" de medianoche");
+                     cxvi.style.display = "none";
+                     var audiocxvi = document.getElementById("audioMusiccxvi");
+                     audiocxvi.play();
+                 }
+             </script>
+    
+    <center>
+        <audio id="audioMusiccxvii">
+        <source src="in.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxvii = document.getElementById("audioMusiccxvii");
+        function bellcxvii ( ){
+        audiocxvii.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction117()
+                 {
+                     document.getElementById("output117").innerHTML= (" en ");
+                     cxvii.style.display = "none";
+                     var audiocxvii = document.getElementById("audioMusiccxvii");
+                     audiocxvii.play();
+                 }
+                 </script>
+    
+    <center>
+        <audio id="audioMusiccxviii">
+        <source src="the.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxviii = document.getElementById("audioMusiccxviii");
+        function bellcxviii ( ){
+        audiocxviii.play();
+        }
+    </script>    
+    
+    
+                 <script>
+                     function myFunction118()
+                     {
+                         document.getElementById("output118").innerHTML= ("los ");
+                         cxviii.style.display = "none";
+                         var audiocxviii = document.getElementById("audioMusiccxviii");
+                         audiocxviii.play();
+                     }
+                 </script>
+    
+    <center>
+        <audio id="audioMusiccxix">
+        <source src="eyes.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxix = document.getElementById("audioMusiccxix");
+        function bellcxix ( ){
+        audiocxix.play();
+        }
+    </script>    
+             
+                 <script>
+                     function myFunction119()
+                     {
+                         document.getElementById("output119").innerHTML= (" ojos ");
+                         cxix.style.display = "none";
+                         var audiocxix = document.getElementById("audioMusiccxix");
+                         audiocxix.play();
+                     }
+                     </script>
+    
+    <center>
+        <audio id="audioMusiccxx">
+        <source src="of.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxx = document.getElementById("audioMusiccxx");
+        function bellcxx ( ){
+        audiocxx.play();
+        }
+    </script>    
+    
+    
+                     <script>
+                         function myFunction120()
+                         {
+                             document.getElementById("output120").innerHTML= ("de ");
+                             cxx.style.display = "none";
+                             var audiocxx = document.getElementById("audioMusiccxx");
+                             audiocxx.play();
+                         }
+                     </script>
+    
+    <center>
+        <audio id="audioMusiccxxi">
+        <source src="their.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxi = document.getElementById("audioMusiccxxi");
+        function bellcxxi ( ){
+        audiocxxi.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction121()
+                 {
+                     document.getElementById("output121").innerHTML= ("su ");
+                     cxxi.style.display = "none";
+                     var audiocxxi = document.getElementById("audioMusiccxxi");
+                     audiocxxi.play();
+                 }
+             </script>
+    
+    <center>
+        <audio id="audioMusiccxxii">
+        <source src="father.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxii = document.getElementById("audioMusiccxxii");
+        function bellcxxii ( ){
+        audiocxxii.play();
+        }
+    </script>    
+    
+     
+             <script>
+             function myFunction122()
+                 {
+                     document.getElementById("output122").innerHTML= ("padre.");
+                     cxxii.style.display = "none";
+                     var audiocxxii = document.getElementById("audioMusiccxxii");
+                     audiocxxii.play();
+                 }
+             </script>
+     
+     
+     
+     <span>
+         <a id="output111"></a>
+         <a id="output112"></a>
+         <a id="output113"></a>
+         <a id="output114"></a>
+         <a id="output115"></a>
+         <a id="output116"></a>
+         <a id="output117"></a>
+         <a id="output118"></a>
+         <a id="output119"></a>
+         <a id="output120"></a>
+         <a id="output121"></a>
+         <a id="output122"></a>
+         </span>
+        <!--8 Párrafo 
+         They were like three midnight moons in the eyes of their father.
+     Ellas eran como tres lunas de medianoche en los ojos de su padre.
+     
+     -->
+         <br/>
+         <br/>
+         <button id= cxi onclick="myFunction111()" class="button button1"  > They </button>
+         <button id= cxii onclick="myFunction112()" class="button button1" >  were </button>
+         <button id= cxiii onclick="myFunction113()" class="button button1" >like    </button>
+         <button id= cxiv onclick="myFunction114()" class="button button1"  > three   </button>
+         <button id= cxvi onclick="myFunction116()" class="button button1"  >midnight  </button>
+         <button id= cxv onclick="myFunction115()" class="button button1" > moons   </button>
+         <button id= cxvii onclick="myFunction117()" class="button button1"  > in </button>
+         <button id= cxviii onclick="myFunction118()" class="button button1"  >the </button>
+         <button id= cxix onclick="myFunction119()" class="button button1"  >eyes  </button>
+         <button id= cxx onclick="myFunction120()" class="button button1"  >  of  </button>
+         <button id= cxxi onclick="myFunction121()" class="button button1"  > their  </button>
+         <button id= cxxii onclick="myFunction122()" class="button button1"  > father. </button>
+         
+        
+     
+     <!--8 TERMINA PARRAFO 8-->
+     
+     <!--9 INICIA PARRAFO 9-->
+     
+     <p><b>9. There were the ones who brought food to his table.</b></p>
+     
+     <!--9 Párrafo 
+         There were  the ones who brought food to his table. 
+         Había       los que      traían  comida a su mesa.   
+     -->
+    
+    
+    <center>
+        <audio id="audioMusiccxxiii">
+        <source src="therewere.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxiii = document.getElementById("audioMusiccxxiii");
+        function bellcxxiii ( ){
+        audiocxxiii.play();
+        }
+    </script>    
+    
+    
+     <script>
+         function myFunction123()
+         {
+             document.getElementById("output123").innerHTML= ("Había  ");
+             cxxiii.style.display = "none";
+             var audiocxxiii = document.getElementById("audioMusiccxxiii");
+             audiocxxiii.play();
+         }
+     </script>
+    
+    
+    <center>
+        <audio id="audioMusiccxxiv">
+        <source src="theones.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxiv = document.getElementById("audioMusiccxxiv");
+        function bellcxxiv ( ){
+        audiocxxiv.play();
+        }
+    </script>    
+    
+    
+     <script>
+         function myFunction124()
+         {
+             document.getElementById("output124").innerHTML= (" los elegidos ");
+             cxxiv.style.display = "none";
+             var audiocxxiv = document.getElementById("audioMusiccxxiv");
+             audiocxxiv.play();
+    
+         }
+     </script>
+     
+    <center>
+        <audio id="audioMusiccxxv">
+        <source src="who.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxv = document.getElementById("audioMusiccxxv");
+        function bellcxxv ( ){
+        audiocxxv.play();
+        }
+    </script>    
+    
+    <script>
+         function myFunction125()
+         {
+             document.getElementById("output125").innerHTML= ("quienes");
+             cxxv.style.display = "none";
+             var audiocxxv = document.getElementById("audioMusiccxxv");
+             audiocxxv.play();
+         }
+         </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusiccxxvi">
+        <source src="brought.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxvi = document.getElementById("audioMusiccxxvi");
+        function bellcxxvi ( ){
+        audiocxxvi.play();
+        }
+    </script>    
+    
+         <script>
+             function myFunction126()
+             {
+                 document.getElementById("output126").innerHTML= ("traían ");
+                 cxxvi.style.display = "none";
+                 var audiocxxvi = document.getElementById("audioMusiccxxvi");
+                 audiocxxvi.play();
+             }
+         </script>
+    
+    <center>
+        <audio id="audioMusiccxxvii">
+        <source src="food.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxvii = document.getElementById("audioMusiccxxvii");
+        function bellcxxvii ( ){
+        audiocxxvii.play();
+        }
+    </script>    
+    
+     
+         <script>
+             function myFunction127()
+             {
+                 document.getElementById("output127").innerHTML= ("comida ");
+                 cxxvii.style.display = "none";
+                 var audiocxxvii = document.getElementById("audioMusiccxxvii");
+                 audiocxxvii.play();
+             }
+         </script>
+    
+    <center>
+        <audio id="audioMusiccxxviii">
+        <source src="to.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxviii = document.getElementById("audioMusiccxxviii");
+        function bellcxxviii ( ){
+        audiocxxviii.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction128()
+                 {
+                     document.getElementById("output128").innerHTML= (" a ");
+                     cxxviii.style.display = "none";
+                     var audiocxxviii = document.getElementById("audioMusiccxxviii");
+                     audiocxxviii.play();
+    
+                 }
+             </script>
+     
+    
+     <center>
+        <audio id="audioMusiccxxix">
+        <source src="his.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxix = document.getElementById("audioMusiccxxix");
+        function bellcxxix ( ){
+        audiocxxix.play();
+        }
+    </script>    
+     
+             <script>
+                 function myFunction129()
+                 {
+                     document.getElementById("output129").innerHTML= ("su ");
+                     cxxix.style.display = "none";
+                     var audiocxxix = document.getElementById("audioMusiccxxix");
+                     audiocxxix.play();        
+                 }
+             </script>
+    
+    
+    <center>
+        <audio id="audioMusiccxxx">
+        <source src="table.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxx = document.getElementById("audioMusiccxxx");
+        function bellcxxx ( ){
+        audiocxxx.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction130()
+                 {
+                     document.getElementById("output130").innerHTML= ("mesa.");
+                     cxxx.style.display = "none";
+                     var audiocxxx = document.getElementById("audioMusiccxxx");
+                     audiocxxx.play();
+                 }
+             </script>
+     
+     <span>
+         <a id="output123"></a>
+         <a id="output124"></a>
+         <a id="output125"></a>
+         <a id="output126"></a>
+         <a id="output127"></a>
+         <a id="output128"></a>
+         <a id="output129"></a>
+         <a id="output130"></a>
+         
+         </span>
+     <!--9 Párrafo 
+         There were  the ones who brought food to his table. 
+         Había        los que le llevaban comida a su mesa.
+     -->
+         <br/>
+         <br/>
+         <button id= cxxiii onclick="myFunction123()" class="button button1"   > There were   </button>
+         <button id= cxxiv onclick="myFunction124()" class="button button1"  >  the ones   </button>
+         <button id= cxxv onclick="myFunction125()" class="button button1"  > who   </button>
+         <button id= cxxvi onclick="myFunction126()" class="button button1"  >brought    </button>
+         <button id= cxxvii onclick="myFunction127()" class="button button1"  > food </button>
+         <button id= cxxviii onclick="myFunction128()" class="button button1" > to  </button>
+         <button id= cxxix onclick="myFunction129()" class="button button1"  > his     </button>
+         <button id= cxxx onclick="myFunction130()"  class="button button1"  > table.  </button>
+         
+        
+     
+     <!--9 TERMINA PARRAFO 9-->
+     <!--10 INICIA PARRAFO 10-->
+     
+     <p><b>10.  But Djeow Seow was like a tiny star in the emperor’s sight.</b></p>
+     
+     <!--10 Párrafo 
+         But Djeow Seow was like a tiny star in the emperor’s sight.
+         Pero Djeow Seow era como una pequeña estrella en la vista del emperador.
+     -->
+     
+    
+     <center>
+        <audio id="audioMusiccxxxi">
+        <source src="but.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxxi = document.getElementById("audioMusiccxxxi");
+        function bellcxxxi ( ){
+        audiocxxxi.play();
+        }
+    </script>    
+    
+    
+     <script>
+         function myFunction131()
+         {
+             document.getElementById("output131").innerHTML= ("Pero ");
+             cxxxi.style.display = "none";
+             var audiocxxxi = document.getElementById("audioMusiccxxxi");
+             audiocxxxi.play();
+         }
+         </script>
+    
+    
+    
+    <center>
+        <audio id="audioMusiccxxxii">
+        <source src="djeowsoew.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxxii = document.getElementById("audioMusiccxxxii");
+        function bellcxxxii ( ){
+        audiocxxxii.play();
+        }
+    </script>    
+    
+    
+         <script>
+             function myFunction132()
+             {
+                 document.getElementById("output132").innerHTML= ("Djeow Seow ");
+                 cxxxii.style.display = "none";
+                 var audiocxxxii = document.getElementById("audioMusiccxxxii");
+                 audiocxxxii.play();
+    
+             }
+         </script>
+    
+    
+         <center>
+            <audio id="audioMusiccxxxiii">
+            <source src="was.mp3" type="audio/mpeg">
+            </audio>
+        </center>
+        
+        <script>
+            var audiocxxxiii = document.getElementById("audioMusiccxxxiii");
+            function bellcxxxiii ( ){
+            audiocxxxiii.play();
+            }
+        </script>    
+        
+         
+         <script>
+             function myFunction133()
+             {
+                 document.getElementById("output133").innerHTML= ("era ");
+                 cxxxiii.style.display = "none";
+                 var audiocxxxiii = document.getElementById("audioMusiccxxxiii");
+                 audiocxxxiii.play();
+             }
+             </script>
+    
+    
+    
+    
+    <center>
+        <audio id="audioMusiccxxxiv">
+        <source src="like.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxxiv = document.getElementById("audioMusiccxxxiv");
+        function bellcxxxiv ( ){
+        audiocxxxiv.play();
+        }
+    </script>    
+    
+             <script>
+                 function myFunction134()
+                 {
+                     document.getElementById("output134").innerHTML= ("como ");
+                     cxxxiv.style.display = "none";
+                     var audiocxxxiv = document.getElementById("audioMusiccxxxiv");
+                     audiocxxxiv.play();
+                 }
+             </script>
+    
+    
+     <center>
+        <audio id="audioMusiccxxxv">
+        <source src="a.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxxv = document.getElementById("audioMusiccxxxv");
+        function bellcxxxv ( ){
+        audiocxxxv.play();
+        }
+    </script>    
+     
+             <script>
+                 function myFunction135()
+                 {
+                     document.getElementById("output135").innerHTML= ("una ");
+                     cxxxv.style.display = "none";
+                     var audiocxxxv = document.getElementById("audioMusiccxxxv");
+                     audiocxxxv.play();
+                 }
+             </script>
+    
+    <center>
+        <audio id="audioMusiccxxxvi">
+        <source src="tiny.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxxvi = document.getElementById("audioMusiccxxxvi");
+        function bellcxxxvi ( ){
+        audiocxxxvi.play();
+        }
+    </script>    
+    
+    
+             <script>
+                 function myFunction136()
+                 {
+                     document.getElementById("output136").innerHTML= ("pequeña ");
+                     cxxxvi.style.display = "none";
+                     var audiocxxxvi = document.getElementById("audioMusiccxxxvi");
+                     audiocxxxvi.play();
+                 }
+             </script>
+    
+    <center>
+        <audio id="audioMusiccxxxvii">
+        <source src="star.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxxvii = document.getElementById("audioMusiccxxxvii");
+        function bellcxxxvii ( ){
+        audiocxxxvii.play();
+        }
+    </script>    
+    
+             <script>
+                 function myFunction137()
+                 {
+                     document.getElementById("output137").innerHTML= ("estrella");
+                     cxxxvii.style.display = "none";
+                     var audiocxxxvii = document.getElementById("audioMusiccxxxvii");
+                     audiocxxxvii.play();
+                 }
+                 </script>
+    
+    <center>
+        <audio id="audioMusiccxxxviii">
+        <source src="in.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxxviii = document.getElementById("audioMusiccxxxviii");
+        function bellcxxxviii ( ){
+        audiocxxxviii.play();
+        }
+    </script>    
+    
+    
+    
+                 <script>
+                     function myFunction138()
+                     {
+                         document.getElementById("output138").innerHTML= (" en ");
+                         cxxxviii.style.display = "none";
+                         var audiocxxxviii = document.getElementById("audioMusiccxxxviii");
+                         audiocxxxviii.play();
+                     }
+                 </script>
+    
+    <center>
+        <audio id="audioMusiccxxxix">
+        <source src="the.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxxxix = document.getElementById("audioMusiccxxxix");
+        function bellcxxxix ( ){
+        audiocxxxix.play();
+        }
+    </script>    
+    
+    
+             
+                 <script>
+                     function myFunction139()
+                     {
+                         document.getElementById("output139").innerHTML= (" la ");
+                         cxxxix.style.display = "none";
+                         var audiocxxxix = document.getElementById("audioMusiccxxxix");
+                         audiocxxxix.play();
+                     }
+                     </script>
+    
+    <center>
+        <audio id="audioMusiccxl">
+        <source src="emperor'ssight.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+    
+    <script>
+        var audiocxl = document.getElementById("audioMusiccxl");
+        function bellcxl ( ){
+        audiocxl.play();
+        }
+    </script>    
+    
+                     <script>
+                         function myFunction140()
+                         {
+                             document.getElementById("output140").innerHTML= ("vista del emperador. ");
+                             cxl.style.display = "none";
+                             var audiocxl = document.getElementById("audioMusiccxl");
+                             audiocxl.play();
+                         }
+                     </script>
+     
+     <span>
+         <a id="output131"></a>
+         <a id="output132"></a>
+         <a id="output133"></a>
+         <a id="output134"></a>
+         <a id="output135"></a>
+         <a id="output136"></a>
+         <a id="output137"></a>
+         <a id="output138"></a>
+         <a id="output139"></a>
+         <a id="output140"></a>
+         </span>
+    
+         <br/>
+         <br/>
+         <button id= cxxxi onclick="myFunction131()" class="button button1" > But  </button>
+         <button id= cxxxii onclick="myFunction132()" class="button button1"  >  Djeow Seow  </button>
+         <button id= cxxxiii onclick="myFunction133()"class="button button1"  >was  </button>
+         <button id= cxxxiv onclick="myFunction134()" class="button button1"  > like  </button>
+         <button id= cxxxv onclick="myFunction135()" class="button button1"  >a </button>
+         <button id= cxxxvi onclick="myFunction136()" class="button button1"  > tiny  </button>
+         <button id= cxxxvii onclick="myFunction137()" class="button button1"  > star     </button>
+         <button id= cxxxviii onclick="myFunction138()" class="button button1" >in   </button>
+         <button id= cxxxix onclick="myFunction139()" class="button button1" > the  </button>
+         <button id= cxl onclick="myFunction140()"  class="button button1"   > emperor’s sight. </button>
+    
+     <!--10 TERMINA PARRAFO 10-->
+     <!--
+     <script>
+         function myFunction141()
+         {
+             document.getElementById("output141").innerHTML= ("en");
+             cxli.style.display = "none";
+         }
+     </script>
+     
+     
+     <script>
+     function myFunction142()
+         {
+             document.getElementById("output142").innerHTML= ("cuenta");
+             cxlii.style.display = "none";
+         }
+     </script>
+     
+     <script>
+     function myFunction143()
+     {
+     document.getElementById("output143").innerHTML= ("mucho,  ");
+     cxliii.style.display = "none";
+     
+     }
+     </script>
+     
+     <script>
+     function myFunction144()
+     {
+     document.getElementById("output144").innerHTML= ("cuando  ");
+     cxliv.style.display = "none";
+     }
+     </script>
+     
+     <script>
+     function myFunction145()
+     {
+     document.getElementById("output145").innerHTML= ("ella  ");
+     cxlv.style.display = "none";
+     }
+     </script>
+     
+     <script>
+     function myFunction146()
+     {
+         document.getElementById("output146").innerHTML= ("era ");
+         cxlvi.style.display = "none";
+     }
+     </script>
+     
+     
+     <script>
+     function myFunction147()
+     {
+         document.getElementById("output147").innerHTML= ("siquiera");
+         cxlvii.style.display = "none";
+     }
+     </script>
+     
+     <script>
+         function myFunction148()
+         {
+             document.getElementById("output148").innerHTML= (" tomada ");
+             cxlviii.style.display = "none";
+         }
+     </script>
+     
+     
+     <script>
+         function myFunction149()
+         {
+             document.getElementById("output149").innerHTML= ("en ");
+             cxlix.style.display = "none";
+     
+         }
+     </script>
+     
+     <script>
+         function myFunction150()
+         {
+             document.getElementById("output150").innerHTML= ("cuenta.");
+             cl.style.display = "none";
+         }
+     </script>
+     
+     <span>
+         <a id="output141"></a>
+         <a id="output142"></a>
+         <a id="output143"></a>
+         <a id="output144"></a>
+         <a id="output145"></a>
+         <a id="output146"></a>
+         <a id="output147"></a>
+         <a id="output148"></a>
+         <a id="output149"></a>
+         <a id="output150"></a>
+         </span>
+         <br/>
+         <br/>
+         <button id= cxli onclick="myFunction141()"> into   </button>
+         <button id= cxlii onclick="myFunction142()"> account  </button>
+         <button id= cxliii onclick="myFunction143()"> much, </button>
+         <button id= cxliv onclick="myFunction144()">   when  </button>
+         <button id= cxlv onclick="myFunction145()"> she   </button>
+         <button id= cxlvi onclick="myFunction146()">was  </button>
+         <button id= cxlvii onclick="myFunction147()"> even    </button>
+         <button id= cxlviii onclick="myFunction148()"> taken </button>
+         <button id= cxlix onclick="myFunction149()"> into  </button>
+         <button id= cl onclick="myFunction150()"> account. </button>
+     -->
+     
+     
+            <!--        <h3>Método de Enseñanza</h3>
+                    <p>El secreto de Rubik English, es su metódo de enseñanza del “Espejo de los idiomas”, el cual consiste en enseñar un idioma extranjero, con base en los conocimientos ya conocidos de la lenguan manterna, en este caso enseñar el inglés desde lo que el alunmo ya conoce y domina del idioma español.</p>
+                </div>-->
+    
+    
+                <div>
+                    <br/>           
+                    <img src="img/news3.jpg" alt="News3">
+                    <!--<h3>Resultados</h3>
+                    <p>A los alumnos que tomen el curso de Rubik English, les garantizamos que, al cabo de tan sólo 3 meses, comprenderán, asimilarán, utilizarán y dominarán todos los conceptos que componen la estructura del idioma inglés, por lo que al terminar el curso serás capaz de comprender conversaciones y leer libros en inglés, quedando solo seguir practicando lo aprendido y adquerir mayor vocabulario. </p>-->
+                </div>
+             <!--   <div>
+                    <img src="img/news4.jpg" alt="News4">
+                    <h3>Información del Curso</h3>
+                    <p>Fecha inicio: 3 de octubre de 2020</p>
+                    <p>Fecha conclusión: 19 de diciembre de 2020</p>
+                    <p>Horarios: Sabados 10:00 am a 12:00</p>
+                    <p>Sede: Corporativo Acacias</p>
+                    <p>Dirección: Calle Acacias 5, colonia Villa de las Flores, Coacalco, Estado de México</p>
+                </div>-->
+    
+                <center>
+                    <br/>  
+                    <a href="https://rubikenglish.github.io/theemperorandthekitememo1/"style= text-decoration:none; >Siguiente</a>
+                    <a href="https://rubikenglish.github.io/theemperorandthekite8/"style= text-decoration:none; >>></a>
+    
+                </center>
+                
+            </div>
+            <section class="cards-banner-one">
+                <div class= "content">
+                    <h2>Información</h2>
+                    <p>Teléfono:</p>
+                    <p>55 35 79 67 86</p>
+                    <p>WhatsApp:</p>
+                    <p>+52 55 67 08 35 54</p>
+                    <p>E-mail:</p>
+                    <p>rubik.lallavedelingles@gmail.com</p>
+                    
+                </div>    
+        </div>
+    
+        <div class="footer-links">
+            <div class="footer-container">
+            </section>
+            <section class="social">
+                <p>Follow Rubik English</p>
+                <div class="links">
+                    <a href="https://m.facebook.com/rubik.english.96?tsid=0.8817893274054946&source=result"><i class= "fab fa-facebook-f"></i> </a>
+                </div>
+            </section>
+            </div>
+    
+        </div>
+
+
+
+
+
+
+        <!-- Modal -->
+        <!--<div id="modal" class="oculto">
+            <img id="modal-avatar" src="img/avatars/spiderman.jpg">
+
+            <span class="first"> 
+                <span id="titulo-modal">Nuevo mensaje</span>
+                <span id="cancel-btn" class="fa fa-times"></span>
+            </span>
+            
+
+            <div class="nuevo-mensaje">
+                <textarea id="txtMensaje" placeholder="Nuevo mensaje..." rows="5"></textarea>
+            </div>-->
+
+            
+            <!-- boton de enviar -->
+
+         <!--   <div id="post-btn" class="fab">
+                <i class="fa fa-paper-plane"></i>
+            </div>
+
+            <div id="post-btn" class="fab-marker">
+                <i class="fa fa-map-marker-alt"></i>
+            </div>
+
+            <div id="post-btn" class="fab-photo">
+                <i class="fa fa-image"></i>
+            </div>
+
+        </div> -->
+        <!-- Fin Modal -->
+
+
+        <!-- Seleccion de personaje -->
+       <!-- <div id="seleccion" class="seleccion animated fadeIn fast" align="center">
+        
+            <div>
+                <img data-user="spiderman" src="img/avatars/spiderman.jpg" alt="spiderman" class="seleccion-avatar">
+            </div>
+
+            <div>
+                <img data-user="ironman" src="img/avatars/ironman.jpg" alt="ironman" class="seleccion-avatar">
+            </div>
+
+            <div>
+                <img data-user="wolverine" src="img/avatars/wolverine.jpg" alt="wolverine" class="seleccion-avatar">
+            </div>
+
+            <div>
+                <img data-user="thor" src="img/avatars/thor.jpg" alt="thor" class="seleccion-avatar">
+            </div>
+
+            <div>
+                <img data-user="hulk" src="img/avatars/hulk.jpg" alt="hulk" class="seleccion-avatar">
+            </div>
+
+        </div>-->
+
+        <!-- FIN Seleccion de personaje -->
+
+        <!-- Lista de mensajes -->
+
+<!--        <ul id="timeline" class="timeline oculto"> -->
+            
+            <!-- Mensaje -->
+ <!--           <li class="animated fadeIn fast">
+                <div class="avatar">
+                    <img src="img/avatars/spiderman.jpg">
+                </div>
+                <div class="bubble-container">
+                    <div class="bubble">
+                        <h3>@spiderman</h3>
+                        <br/>
+                        La tía May, hizo unos panqueques en forma de ironman!
+                    </div>
+                    
+                    <div class="arrow"></div>
+                </div>
+            </li>-->
+            <!-- Fin del mensaje -->
+<!--
+        </ul>-->
+        <!-- Fin Lista de mensajes -->
+
+
+      
+    
+        <script src="js/libs/jquery.js"></script>
+        <script src="js/app.js"></script>
+    
+</body>
+</html>
