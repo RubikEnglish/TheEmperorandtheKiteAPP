@@ -1,6 +1,6 @@
 
 var url = window.location.href;
-var swLocation = '/EmperorandKiteAPP/sw.js';
+var swLocation = '/TheEmperorandtheKiteAPP/sw.js';
 
 
 if ( navigator.serviceWorker ) {
